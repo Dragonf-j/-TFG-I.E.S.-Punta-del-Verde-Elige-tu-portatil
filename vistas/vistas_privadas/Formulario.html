@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Formulario base datos</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <link rel="stylesheet" href="../../estilos/Fondos.css"> -->
+    <link rel="stylesheet" href="../../estilos/estilos_tabs_form/estilo.css">
+    <!-- <script src="../../javaScript/formularios/formulario_equipo.js"></script> -->
+</head>
+
+<body>
+    <div class="contenedor">
+        
+        <ul class="ul">
+            <li class="li"><a href="#añadir" class="a">Añadir</a></li>
+            <li class="li"><a href="#actualizar" class="a">Actualizar</a></li>
+            <li class="li"><a href="#borrar" class="a">Borrar</a></li>
+        </ul>
+        <div class="subcontendor">
+            <div class="bloque">
+                <form id="añadir" class="form-row align-items-center" action="" method="POST" enctype="multipart/form-data">
+
+                    <label for="tipo">Tipo</label>
+                    <select name="tipo" id="tipo" class="select">
+                        <option value="Gaming" class="option">Gaming</option>
+                        <option value="Basico" class="option">Básico</option>
+                        <option value="Workstation" class="option">Trabajo</option>
+                        <option value="Convertible" class="option">2 en 1</option>
+                    </select>
+
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre">
+
+                    <label for="RAM">RAM</label>
+                    <select name="RAM" id="ram" class="select">
+                        <option value="8" class="option">8</option>
+                        <option value="16" class="option">16</option>
+                        <option value="32" class="option">32</option>
+                    </select>
+
+                    <label for="imagen">Imagen</label>
+                    <input type="file" name="imagen">
+
+                    <label for="almacenamiento">Almacenamiento</label>
+                    <select name="almacenamiento" id="storage" class="select">
+                        <option value="250 GB" class="option">250</option>
+                        <option value="500 GB" class="option">500</option>
+                        <option value="1 TB" class="option">1</option>
+                        <option value="+1 TB" class="option">+1 </option>
+                    </select>
+
+                    <label for="precio">Precio Amazon</label>
+                    <input type="text" name="precio">
+                    <label for="enlace">Enlace Amazon</label>
+                    <input type="text" name="enlace">
+
+                    <label for="presupuesto">Presupuesto</label>
+                    <select name="presupuesto" id="presupuesto" class="select">
+                        <option value="Bajo" class="option">Bajo</option>
+                        <option value="Moderado" class="option">Moderado</option>
+                        <option value="Elevado" class="option">Elevado</option>
+                    </select>
+                    <label for="pulgadas">Pulgadas</label>
+                    <select name="pulgadas" id="" class="select">
+                        <option value="Pequeño" class="option">Pequeño</option>
+                        <option value="Medio" class="option">Medio</option>
+                        <option value="Grande" class="option">Grande</option>
+                    </select><br>
+
+                    <label for="des">Descripción</label><br>
+                    <textarea name="descripcion" class="des" cols="30" rows="10"></textarea>
+
+
+
+
+                    <input type="submit" value="Añadir">
+                </form>
+            </div>
+            <div class="bloque">
+                <form id="actualizar" class="form-row align-items-center" action="" method="POST" enctype="multipart/form-data">
+
+                    <label for="tipo">Tipo</label>
+                    <select name="tipo" id="tipo" class="select">
+                        <option value="Gaming" class="option">Gaming</option>
+                        <option value="Basico" class="option">Básico</option>
+                        <option value="Workstation" class="option">Trabajo</option>
+                        <option value="Convertible" class="option">2 en 1</option>
+                    </select>
+
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre">
+
+                    <label for="RAM">RAM</label>
+                    <select name="RAM" id="ram" class="select">
+                        <option value="8">8</option>
+                        <option value="16">16</option>
+                        <option value="32">32</option>
+                    </select>
+
+                    <label for="imagen">Imagen</label>
+                    <input type="file" name="imagen">
+
+                    <label for="almacenamiento">Almacenamiento</label>
+                    <select name="almacenamiento" id="storage" class="select">
+                        <option value="250 GB">250</option>
+                        <option value="500 GB">500</option>
+                        <option value="1 TB">1</option>
+                        <option value="+1 TB">+1 </option>
+                    </select>
+
+                    <label for="precio">Precio Amazon</label>
+                    <input type="text" name="precio">
+                    <label for="enlace">Enlace Amazon</label>
+                    <input type="text" name="enlace">
+
+                    <label for="presupuesto">Presupuesto</label>
+                    <select name="presupuesto" id="presupuesto">
+                        <option value="Bajo">Bajo</option>
+                        <option value="Moderado">Moderado</option>
+                        <option value="Elevado">Elevado</option>
+                    </select>
+                    <label for="pulgadas">Pulgadas</label>
+                    <select name="pulgadas" id="" class="select">
+                        <option value="Pequeño">Pequeño</option>
+                        <option value="Medio">Medio</option>
+                        <option value="Grande">Grande</option>
+                    </select><br>
+
+                    <label for="des">Descripción</label><br>
+                    <textarea name="descripcion" class="des" cols="30" rows="10"></textarea>
+
+
+
+
+                    <input type="submit" value="Actualizar">
+                </form>
+            </div>
+            <div class="bloque">
+                <form id="borrar" class="formulario" action="" method="POST" enctype="multipart/form-data">
+
+                  <select name="id" id="id" class="select">
+                    <option value="a">a</option>
+                    <option value="b">b</option>
+                    <option value="c">c</option>
+                  </select>
+                    <input type="submit" value="Borrar">
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script>
+'use strict';
+
+const li        = document.querySelectorAll('.a');
+const bloque    = document.querySelectorAll('.bloque');
+
+
+// CLICK en li
+    // TODOS .li quitar la clase activo
+    // TODOS .bloque quitar la clase activo
+    // .li con la posicion se añadimos la clase activo
+    // .bloque con la posicion se añadimos la clase activo
+
+// Recorriendo todos los LI
+li.forEach( ( cadaLi , i )=>{
+    
+    // Asignando un CLICK a CADALI
+    li[i].addEventListener('click',()=>{
+        
+        // Recorrer TODOS los .li
+        li.forEach( ( cadaLi , i )=>{
+            // Quitando la clase activo de cada li
+            li[i].classList.remove('activo');
+            // Quitando la clase activo de cada bloque
+            bloque[i].classList.remove('activo');
+        })
+
+        // En el li que hemos click le añadimos la clase activo
+        li[i].classList.add('activo');
+        // En el bloque con la misma posición le añadimos la clase activo
+        bloque[i].classList.add('activo');
+
+    })
+})
+    
+</script>
+</html>
