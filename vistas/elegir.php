@@ -208,7 +208,7 @@ session_start();
             require_once('/xampp/htdocs/Dragonf/proyecto/models/model_laptop_user/lap_user.php');
 
             $lup = new userLapCrud();
-            // var_dump($cLaptop->mostrardsagsadgsa());
+            var_dump($cLaptop->mostrar());
 
 
             if (isset($_POST['mostrar'])) {
