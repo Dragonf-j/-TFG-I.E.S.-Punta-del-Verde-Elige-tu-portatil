@@ -1,5 +1,5 @@
 <?php
-session_start();
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -204,31 +204,28 @@ session_start();
             <?php
             require_once('../controlers/controlador.php');
             $cLaptop = new ControladorPortatil();
-            require_once('/xampp/htdocs/Dragonf/proyecto/models/model_laptop_user/userLapCrud.php');
-            require_once('/xampp/htdocs/Dragonf/proyecto/models/model_laptop_user/lap_user.php');
+            
+            // var_dump($cLaptop->mostrar());
+            $cLaptop->mostrar();
 
-            $lup = new userLapCrud();
-            var_dump($cLaptop->mostrar());
+            // if (isset($_POST['mostrar'])) {
 
-
-            if (isset($_POST['mostrar'])) {
-
-                $lap = $cLaptop->mostrar();
-                montarTabla::montar($lap);
-                if (isset($_SESSION["usuario"])) {
-                    $user = $_SESSION["usuario"];
-                    foreach ($lap as $key => $value) {
-                        $id = $value['id'];
-                    }
-                    // var_dump($id);
-                    $id2 = (int)$id;
-                    // var_dump($id2);
-                    // echo $user;
+            //     $lap = $cLaptop->mostrar();
+            //     montarTabla::montar($lap);
+                // if (isset($_SESSION["usuario"])) {
+                //     $user = $_SESSION["usuario"];
+                //     foreach ($lap as $key => $value) {
+                //         $id = $value['id'];
+                //     }
+                //     // var_dump($id);
+                //     $id2 = (int)$id;
+                //     // var_dump($id2);
+                //     // echo $user;
                     
                     
-                    $lup->anadir( $user,$id2);
-                }
-            }
+                //     $lup->anadir( $user,$id2);
+                // }
+            // }
           
             ?>
 

@@ -31,38 +31,40 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/Dragonf/proyecto/vistas/Vistas_dinamica
    public function mostrar(){
             if(isset($_POST['tipos'])){
                $tipo = $_POST['tipos'];
-            
+               var_dump($tipo);
                
             }else{
                return;
             }
             if(isset($_POST['almacenamiento'])){
                $almacenamiento = $_POST['almacenamiento'];
+               var_dump($almacenamiento);
               
             }
             if(isset($_POST['memoria'])){
                $ram = $_POST['memoria'];
-               
+               var_dump($ram);
             }else{
                return;
             }
             if(isset($_POST['precio'])){
                $precio = $_POST['precio'];
+               var_dump($precio);
             }else{
                return;
             }
             if(isset($_POST['Pulgadas'])){
                $pulgadas = $_POST['Pulgadas'];
-               
+               var_dump($pulgadas);
             }else{
                return;
             }
            
            
             
-            
+          
             $datos = $this->laptop->getPortatil($tipo, $ram, $precio, $pulgadas, $almacenamiento);
-            // var_dump($datos);
+             var_dump($datos);
          return $datos;
         
             // montarTabla::montar($datos);
@@ -86,7 +88,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/Dragonf/proyecto/vistas/Vistas_dinamica
 
     
 
-    $cLaptop = new ControladorPortatil();
+   //  $cLaptop = new ControladorPortatil();
 
     
 
