@@ -74,7 +74,7 @@ class PortatilCrud
             $this->consulta->execute();
             $this->portatiles = $this->consulta->fetchAll(PDO::FETCH_ASSOC);
             echo "<br>";
-            var_dump($this->portatiles);
+            
             // echo "aqui llega";
             return $this->portatiles;
         } catch (PDOException $e) {

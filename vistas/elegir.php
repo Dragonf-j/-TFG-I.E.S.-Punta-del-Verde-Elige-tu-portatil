@@ -61,25 +61,7 @@
                         </li>
                        
                     </ul>
-                <!-- </div>
-                <?php
-                // if (!isset($_SESSION["usuario"])) {
-                //     echo '<div class="collapse navbar-collapse" id="collapsibleNavbar">';
-                //     echo ' <a href="loging.php">Inicia sesion</a>';
-                //     echo  '<a href="registrar.php">Registrate</a>';
-                //     echo '</div>';
-                // }else{
-                //     echo '<div class="collapse navbar-collapse" id="collapsibleNavbar">';
-                //     echo '<p> Bienvenido '. $_SESSION["usuario"].'</p>';
-                //     echo '<br>';
-                //     echo '<button type="submit">';
-                //     echo '<a href="destruir.php">Desconectar</a>';
-                //     echo '</button>';
-                 
-                //     echo '</div>';
-                // }
-                ?>
-            </div> -->
+                
         </nav>
 
     </header>
@@ -88,19 +70,19 @@
         <div class="container bg-light d-flex flex-column justify-content-around ">
             <form action="" method="POST" class="grid">
 
-                <div class="form-check " id="tipos">
+                <div class="form-check " id="tipo">
                     <label for="Tipo"><h4>Tipos</h4></label><br>
                     <label for="gaming">Gaming</label>
-                    <input type="radio" class="form-check-input" class="tipos" name="tipos" value="gaming">
+                    <input type="radio" class="form-check-input" class="tipo" name="tipo" value="gaming">
                     <br>
                     <label for="basico">Básico</label>
-                    <input type="radio" class="form-check-input" class="tipos" name="tipos" value="basico">
+                    <input type="radio" class="form-check-input" class="tipo" name="tipo" value="basico">
                     <br>
                     <label for="workstation">Workstation</label>
-                    <input type="radio" class="form-check-input" class="tipos" name="tipos" value="workstation">
+                    <input type="radio" class="form-check-input" class="tipo" name="tipo" value="workstation">
                     <br>
                     <label for="Convertible">2 en 1</label>
-                    <input type="radio" class="form-check-input" class="tipos" name="tipos" value="Convertible">
+                    <input type="radio" class="form-check-input" class="tipo" name="tipo" value="Convertible">
 
                 </div>
 
@@ -202,30 +184,16 @@
         <div class="container bg-light p-2 ms-auto principal thumbnail">
 
             <?php
-            require_once('../controlers/controlador.php');
+            require_once($_SERVER['DOCUMENT_ROOT'].'/Dragonf/proyecto/vistas/Vistas_dinamicas/montarTabla.php');
+            require_once($_SERVER['DOCUMENT_ROOT'].'/Dragonf/proyecto/controlers/controlador.php');
+            // require_once('../controlers/controlador.php');
+            // require_once('../vistas/Vistas_dinamicas/montarTabla.php');
             $cLaptop = new ControladorPortatil();
             
-            // var_dump($cLaptop->mostrar());
-            $cLaptop->mostrar();
-
-            // if (isset($_POST['mostrar'])) {
-
-            //     $lap = $cLaptop->mostrar();
-            //     montarTabla::montar($lap);
-                // if (isset($_SESSION["usuario"])) {
-                //     $user = $_SESSION["usuario"];
-                //     foreach ($lap as $key => $value) {
-                //         $id = $value['id'];
-                //     }
-                //     // var_dump($id);
-                //     $id2 = (int)$id;
-                //     // var_dump($id2);
-                //     // echo $user;
-                    
-                    
-                //     $lup->anadir( $user,$id2);
-                // }
-            // }
+         
+          $datos =  $cLaptop->mostrar();
+          montarTabla::montar($datos);          
+            
           
             ?>
 

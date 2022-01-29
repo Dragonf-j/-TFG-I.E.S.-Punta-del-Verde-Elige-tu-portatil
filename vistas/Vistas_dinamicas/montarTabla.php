@@ -50,7 +50,7 @@ class montarTabla
 
     public static function montar($datos)
     {
-
+if($datos!=null){
         foreach ($datos as $key => $value) {
             $nombre = $value['nombre'];
             $img = $value["imagen"];
@@ -63,7 +63,8 @@ class montarTabla
             // $preciop = $value['precio_pcpcomponentes'];
             $almacenamiento = $value['almacenamiento'];
             $desc = $value['Descripcion'];
-
+        }
+        
 
         ?>
             <div class="contenedor">
@@ -87,6 +88,8 @@ class montarTabla
             </div>
 
 <?php
+        }else{
+                echo "NO hay equipos con esas caracteristicas";
         }
     }
     public static function montar2($datos)

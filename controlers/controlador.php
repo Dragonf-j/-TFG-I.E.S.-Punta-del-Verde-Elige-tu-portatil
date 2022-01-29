@@ -29,8 +29,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/Dragonf/proyecto/vistas/Vistas_dinamica
 
 
    public function mostrar(){
-            if(isset($_POST['tipos'])){
-               $tipo = $_POST['tipos'];
+            if(isset($_POST['tipo'])){
+               $tipo = $_POST['tipo'];
                var_dump($tipo);
                
             }else{
@@ -64,7 +64,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/Dragonf/proyecto/vistas/Vistas_dinamica
             
           
             $datos = $this->laptop->getPortatil($tipo, $ram, $precio, $pulgadas, $almacenamiento);
-             var_dump($datos);
+            //  var_dump($datos);
          return $datos;
         
             // montarTabla::montar($datos);
