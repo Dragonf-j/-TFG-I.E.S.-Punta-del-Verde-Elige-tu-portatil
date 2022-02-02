@@ -90,18 +90,21 @@
             <input type="submit" value="Enviar">
 
         </form>
-
-    </div>
-
-
-    <?php
+        <?php
         $correo = $_POST['correo'];
         $asunto = $_POST['asunto'];
         $mesaje = $_POST['mensaje'];
+        // echo $correo;
+        // echo $asunto;
+        // echo $mesaje;
         require_once('../controlers/controlador_mail/controlador_mail.php');
         $mail = new mensaje();
         $mail->enviarMensaje($correo, $asunto, $mesaje);
     ?>
+    </div>
+
+
+  
 
 </body>
 <style>
