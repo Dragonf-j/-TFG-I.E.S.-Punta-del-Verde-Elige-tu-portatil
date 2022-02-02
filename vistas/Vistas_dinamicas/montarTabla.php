@@ -50,7 +50,7 @@ class montarTabla
 
     public static function montar($datos)
     {
-if($datos!=null){
+if($datos!=0){
         foreach ($datos as $key => $value) {
             $nombre = $value['nombre'];
             $img = $value["imagen"];
