@@ -85,13 +85,23 @@
             </label>
             <label for="">
                 Mensaje:
-                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
             </label>
+            <input type="submit" value="Enviar">
 
         </form>
 
     </div>
 
+
+    <?php
+        $correo = $_POST['correo'];
+        $asunto = $_POST['asunto'];
+        $mesaje = $_POST['mensaje'];
+        require_once('../controlers/controlador_mail/controlador_mail.php');
+        $mail = new mensaje();
+        $mail->enviarMensaje($correo, $asunto, $mesaje);
+    ?>
 
 </body>
 <style>
