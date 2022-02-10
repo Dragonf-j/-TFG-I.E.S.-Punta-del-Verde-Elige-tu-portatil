@@ -78,31 +78,36 @@
     </header>
     <div class="container bg-light d-flex flex-column justify-content-around ">
         <form action="" method="post">
-            <label for="correo">
-                Correo:
-                <input type="email" name="correo" id="correo">
+            <label for="nombre">
+               <h5> Nombre: </h5>
+                <input type="text" name="nombre" id="nombre">
+                
             </label>
+            <br>    
             <label for="asunto">
-                Asunto:
+                <h5>Asunto:</h5>
                 <input type="text" name="asunto" id="asunto">
             </label>
-            <label for="">
-                Mensaje:
+            <br>
+            <label for="mensaje">
+            <h5>Mensaje:</h5>
                 <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
             </label>
+            <br>
             <input type="submit" value="Enviar">
 
         </form>
         <?php
-        $correo = $_POST['correo'];
-        $asunto = $_POST['asunto'];
-        $mesaje = $_POST['mensaje'];
-        // echo $correo;
-        // echo $asunto;
-        // echo $mesaje;
-        require_once('../controlers/controlador_mail/controlador_mail.php');
-        $mail = new mensaje();
-        $mail->enviarMensaje($correo, $asunto, $mesaje);
+            require_once("../controlers/controlador_mail/controlador_mail.php");
+            if(isset($_POST['nombre']) && isset($_POST['asunto']) && isset($_POST['mensaje'])){
+            $controler_mail = new mensaje();
+            $nombre = $_POST['nombre'];
+            $asunto = $_POST['asunto'];
+            $mensae =$_POST['mensaje'];
+
+            $mail = new mensaje();
+            $mail->enviarMensaje($nombre, $asunto, $mensae);
+            }
         ?>
     </div>
 

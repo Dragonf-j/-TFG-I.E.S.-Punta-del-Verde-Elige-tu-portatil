@@ -13,7 +13,7 @@ class mensaje{
         echo $asunto."<br>";
         echo $mensaje."<br>";
 
-        // mail($correo,$correoUsuario,$asunto,$mensaje );
+         mail($correo,$asunto,$mensaje );
         echo 'Mensaje enviado';
 
     }

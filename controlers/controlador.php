@@ -31,31 +31,31 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/Dragonf/proyecto/vistas/Vistas_dinamica
    public function mostrar(){
             if(isset($_POST['tipo'])){
                $tipo = $_POST['tipo'];
-               var_dump($tipo);
+             
                
             }else{
                return;
             }
             if(isset($_POST['almacenamiento'])){
                $almacenamiento = $_POST['almacenamiento'];
-               var_dump($almacenamiento);
+            
               
             }
             if(isset($_POST['memoria'])){
                $ram = $_POST['memoria'];
-               var_dump($ram);
+            
             }else{
                return;
             }
             if(isset($_POST['precio'])){
                $precio = $_POST['precio'];
-               var_dump($precio);
+             
             }else{
                return;
             }
             if(isset($_POST['Pulgadas'])){
                $pulgadas = $_POST['Pulgadas'];
-               var_dump($pulgadas);
+           
             }else{
                return;
             }
