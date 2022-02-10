@@ -24,7 +24,10 @@
 <body>
     <header class="container-fluid cabecera">
 
-        <h1>Elige tu portátil</h1>
+        <div id="cabecera">
+            <h1>Elige tu portátil</h1>
+            <h4 id="beta">Beta</h4>
+        </div>
         <!-- <div>
             <a href="loging.php">Inicia sesion</a>
             <a href="registrar.php">Registrate</a>
@@ -100,11 +103,11 @@
         require_once('../controlers/controlador_mail/controlador_mail.php');
         $mail = new mensaje();
         $mail->enviarMensaje($correo, $asunto, $mesaje);
-    ?>
+        ?>
     </div>
 
 
-  
+
 
 </body>
 <style>
@@ -161,6 +164,19 @@
             margin: 10px;
 
         }
+    }
+    #beta {
+        background-color: red;
+        width: 50px;
+        border-radius: 5px;
+        float: right;
+    }
+
+    #cabecera {
+
+        width: 20%;
+        height: auto;
+        padding-bottom: 40px;
     }
 </style>
 

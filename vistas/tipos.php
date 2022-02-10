@@ -20,7 +20,10 @@ session_start(); ?>
 <body>
     <header id="header" class="container-fluid cabecera ">
 
-        <h1>Elige tu portátil</h1>
+        <div id="cabecera">
+            <h1>Elige tu portátil</h1>
+            <h4 id="beta">Beta</h4>
+        </div>
 
         <nav class="navbar navbar-expand-sm  navbar-dark">
             <div class="container-fluid">
@@ -55,14 +58,14 @@ session_start(); ?>
                         </li>
                         <li class="nav-item">
                             <a href="contacto.php" class="nav-link">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
-</svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                </svg>
                                 Contacto</a>
                         </li>
-                        
+
                     </ul>
-                <!-- </div>
+                    <!-- </div>
                 <?php
                 // if (!isset($_SESSION["usuario"])) {
                 //     echo '<div class="collapse navbar-collapse" id="collapsibleNavbar">';
@@ -156,12 +159,12 @@ session_start(); ?>
                 </ul>
                 <br>
 
-                    <br>
+                <br>
                 Igualemnte podemos econtrar equipos con mejor hardware capaces de ejucutar los juegos triple A mas exigentes del mercado,
                 claro esta que para obtener esta mejroa de hardware deberemos hacer una inversión aun mayor.
                 <br>
 
-                    <br>
+                <br>
                 <ul>
                     <li>Procesador: </li>
                     <p> Es el cerebro del ordenador</p>
@@ -172,7 +175,7 @@ session_start(); ?>
                 </ul>
                 <br>
 
-                    <br>
+                <br>
                 El principal incoveniente que tienen los portátiles destinados a juegos es su peso. Estos suelen pesar entre los 2kg hasta los 3kg, esto es debido a que la grafica y el procesador durante las partidas pueden alcanzar altas temperaturas, para poder
                 refrigerar estos componentes tienen un sistema de refigeracion de gran grosor que hace que aumente el peso.
                 </p>
@@ -188,20 +191,20 @@ session_start(); ?>
 
                 <p>
                     Los portátiles workstation son aquellos que estan destinados al trabajo exigente. Este tipo de equipos suele tener un hardware exigente. A diferencia de los portatiles gaming que suelen tener un peso elevado estos portatiles tienden a ser
-                    livianos ya que la mayoria de estos portátiles no nesesitan una gran refrigeración. 
+                    livianos ya que la mayoria de estos portátiles no nesesitan una gran refrigeración.
                     <br>
 
                     <br>
                     La mayoria de estos portátiles suelen estar enfocados a usuarios que requieren de potencia para su trabajo y que por su peso tenga una gran movilidad. Algunos de los ejemplos de usuarios son los siguientes:
-                    <ul>
-                        <li>Programadores</li>
-                        <li>Diseñadores gráficos</li>
-                        <li>Ingenieros</li>
-                    </ul>
-                    <br>
+                <ul>
+                    <li>Programadores</li>
+                    <li>Diseñadores gráficos</li>
+                    <li>Ingenieros</li>
+                </ul>
+                <br>
 
-                    <br>
-                    La principal desventaja que tienen estos equipos su almacenamiento reducido, por lo que tendras que cambiar el disco duro por uno de mayor capacidad u optar por servicios en la sube de almacenamiento
+                <br>
+                La principal desventaja que tienen estos equipos su almacenamiento reducido, por lo que tendras que cambiar el disco duro por uno de mayor capacidad u optar por servicios en la sube de almacenamiento
                 </p>
                 <a class="nav-link" href="#header">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
@@ -218,15 +221,15 @@ session_start(); ?>
                     <br>
 
                     <br>
-                    <ul>
-                        <li>Navegar en internet</li>
-                        <li>Ver películas</li>
-                        <li>Realizar documentos</li>
-                    </ul>
-                    <br>
+                <ul>
+                    <li>Navegar en internet</li>
+                    <li>Ver películas</li>
+                    <li>Realizar documentos</li>
+                </ul>
+                <br>
 
-                    <br>
-                    El principal inconveniente de estos portátiles es que debido a su precio el hardware puede ser algo lento.
+                <br>
+                El principal inconveniente de estos portátiles es que debido a su precio el hardware puede ser algo lento.
                 </p>
                 <a class="nav-link" href="#header">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
@@ -243,17 +246,17 @@ session_start(); ?>
                     <br>
 
                     <br>
-                    <ul>
-                        <li>Pantalla táctil</li>
-                        <li>Hardware competente</li>
-                    </ul>
-                    <br>
+                <ul>
+                    <li>Pantalla táctil</li>
+                    <li>Hardware competente</li>
+                </ul>
+                <br>
 
-                    <br>
-                    Estos equipos pueden ser usados para realizar las tareas mas simples como navegar por internet o realizar tareas que requieren de algo mas de potencia hacer diseños gráficos. Muchos de estos portátiles pueden acoplarse a un teclado o usarse como tableta, tambien hay modelos 
-                    que su pantalla 360 grados. Suelen tener un lapiz táctil para la pantalla, este complento en la mayoria de casos se compra a parte del portátil.
-                    
-                    
+                <br>
+                Estos equipos pueden ser usados para realizar las tareas mas simples como navegar por internet o realizar tareas que requieren de algo mas de potencia hacer diseños gráficos. Muchos de estos portátiles pueden acoplarse a un teclado o usarse como tableta, tambien hay modelos
+                que su pantalla 360 grados. Suelen tener un lapiz táctil para la pantalla, este complento en la mayoria de casos se compra a parte del portátil.
+
+
                 </p>
 
                 <a class="nav-link" href="#header">
@@ -282,6 +285,20 @@ session_start(); ?>
     .contenedores {
         margin-top: 5vh;
 
+    }
+
+    #beta {
+        background-color: red;
+        width: 50px;
+        border-radius: 5px;
+        float: right;
+    }
+
+    #cabecera {
+
+        width: 20%;
+        height: auto;
+        padding-bottom: 40px;
     }
 </style>
 
