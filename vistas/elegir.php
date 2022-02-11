@@ -15,7 +15,19 @@
     <script src='../javaScript/elegir.js'></script>
     <script src='../javaScript/ajax.js'></script>
     <link rel="stylesheet" href="../estilos/estilos.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4818848852532039" crossorigin="anonymous"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CNRJ888MW6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-CNRJ888MW6');
+    </script>
 </head>
 <style>
 
@@ -299,7 +311,6 @@
         height: auto;
         padding-bottom: 40px;
     }
-   
 </style>
 
 </html>
