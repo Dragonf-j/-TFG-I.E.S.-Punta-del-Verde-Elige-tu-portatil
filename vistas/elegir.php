@@ -6,17 +6,14 @@
 
 
 <head>
-    <meta charset='utf-8'>
+<meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Elige tu portátil</title>
+    <title>Elige tu portatil</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src='../javaScript/elegir.js'></script>
-    <script src='../javaScript/ajax.js'></script>
-    <link rel="stylesheet" href="../estilos/estilos.css">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4818848852532039" crossorigin="anonymous"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- <link rel="stylesheet" href="../estilos/bootstrap-5.1.3-dist/css/bootstrap.css"> -->
+    <link href="../estilos/estilos.css" rel="stylesheet">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CNRJ888MW6"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -213,10 +210,10 @@
         <div class="container bg-light p-2 ms-auto principal thumbnail">
 
             <?php
-            require_once($_SERVER['DOCUMENT_ROOT'] . '/Dragonf/proyecto/vistas/Vistas_dinamicas/montarTabla.php');
-            require_once($_SERVER['DOCUMENT_ROOT'] . '/Dragonf/proyecto/controlers/controlador.php');
-            // require_once('../controlers/controlador.php');
-            // require_once('../vistas/Vistas_dinamicas/montarTabla.php');
+            // require_once($_SERVER['DOCUMENT_ROOT'] . '/Dragonf/proyecto/vistas/Vistas_dinamicas/montarTabla.php');
+            // require_once($_SERVER['DOCUMENT_ROOT'] . '/Dragonf/proyecto/controlers/controlador.php');
+            require_once('../controlers/controlador.php');
+            require_once('../vistas/Vistas_dinamicas/montarTabla.php');
             $cLaptop = new ControladorPortatil();
 
 
@@ -288,7 +285,7 @@
 
     }
 
-    @media only screen and (max-width: 600px) {
+    /* @media only screen and (max-width: 600px) {
         .grid {
             display: grid;
             grid-template-columns: 40% 40%;
@@ -296,7 +293,7 @@
 
         }
 
-    }
+    } */
 
     #beta {
         background-color: red;
