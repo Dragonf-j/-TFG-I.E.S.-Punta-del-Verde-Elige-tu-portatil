@@ -114,16 +114,16 @@
                         <h4>Almacenamiento</h4>
                     </label><br>
                     <label for="menos">250 GB</label>
-                    <input type="radio" class="form-check-input" name="almacenamiento" value="250GB">
+                    <input type="radio" class="form-check-input" name="almacenamiento" value="250">
                     <br>
                     <label for="medio">500 GB</label>
-                    <input type="radio" class="form-check-input" name="almacenamiento" value="500GB">
+                    <input type="radio" class="form-check-input" name="almacenamiento" value="500">
                     <br>
                     <label for="max">1 TB</label>
-                    <input type="radio" class="form-check-input" name="almacenamiento" value="1TB">
+                    <input type="radio" class="form-check-input" name="almacenamiento" value="1">
                     <br>
                     <label for="max-extend">+1 TB</label>
-                    <input type="radio" class="form-check-input" name="almacenamiento" value="+1TB">
+                    <input type="radio" class="form-check-input" name="almacenamiento" value="2">
                 </div>
 
                 <div class="form-check thumbnail" id="ram">
