@@ -1,7 +1,7 @@
 <?php
    
-// require_once('../vistas/Vistas_dinamicas/montarTabla.php');
-require_once($_SERVER['DOCUMENT_ROOT'].'/Dragonf/proyecto/vistas/Vistas_dinamicas/montarTabla.php');
+require_once('../vistas/Vistas_dinamicas/montarTabla.php');
+// require_once($_SERVER['DOCUMENT_ROOT'].'/Dragonf/proyecto/vistas/Vistas_dinamicas/montarTabla.php');
 /**
  * clase que controla el funcionamiento entre la web y la base de datos
  */
@@ -13,8 +13,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/Dragonf/proyecto/vistas/Vistas_dinamica
  */
      public function __construct()
      {
-      //   require_once('../models/portatilesCurd.php');
-      require_once($_SERVER['DOCUMENT_ROOT'].'/Dragonf/proyecto/models/portatilesCurd.php');
+        require_once('../models/portatilesCurd.php');
+      // require_once($_SERVER['DOCUMENT_ROOT'].'/Dragonf/proyecto/models/portatilesCurd.php');
         $this->laptop = new PortatilCrud();
      }
 
