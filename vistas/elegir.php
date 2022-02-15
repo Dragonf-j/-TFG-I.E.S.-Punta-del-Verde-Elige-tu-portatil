@@ -24,6 +24,8 @@
         gtag('js', new Date());
 
         gtag('config', 'G-CNRJ888MW6');
+
+        alert("Ahora mismo no hay equipos disponibles, se estan solucionando problemas");
     </script>
 </head>
 <style>
@@ -114,16 +116,16 @@
                         <h4>Almacenamiento</h4>
                     </label><br>
                     <label for="menos">250 GB</label>
-                    <input type="radio" class="form-check-input" name="almacenamiento" value="250">
+                    <input type="radio" class="form-check-input" name="almacenamiento" value="250GB">
                     <br>
                     <label for="medio">500 GB</label>
-                    <input type="radio" class="form-check-input" name="almacenamiento" value="500">
+                    <input type="radio" class="form-check-input" name="almacenamiento" value="500GB">
                     <br>
                     <label for="max">1 TB</label>
-                    <input type="radio" class="form-check-input" name="almacenamiento" value="1">
+                    <input type="radio" class="form-check-input" name="almacenamiento" value="1TB">
                     <br>
                     <label for="max-extend">+1 TB</label>
-                    <input type="radio" class="form-check-input" name="almacenamiento" value="2">
+                    <input type="radio" class="form-check-input" name="almacenamiento" value="+1TB">
                 </div>
 
                 <div class="form-check thumbnail" id="ram">
@@ -222,8 +224,8 @@
 
 
             ?>
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-eu.amazon-adsystem.com/e/cm?ref=qf_sp_asin_til&t=dragonf-21&m=amazon&o=30&p=8&l=as1&IS2=1&asins=B09GGD16BW&linkId=b31850adf5f3ddbaaf8c9719997801bf&bc1=000000&amp;lt1=_blank&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr">
-    </iframe>
+<!-- <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-eu.amazon-adsystem.com/e/cm?ref=qf_sp_asin_til&t=dragonf-21&m=amazon&o=30&p=8&l=as1&IS2=1&asins=B09GGD16BW&linkId=b31850adf5f3ddbaaf8c9719997801bf&bc1=000000&amp;lt1=_blank&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr">
+    </iframe> -->
         </div>
         <!-- <footer class="has-sticky-footer">
         <div>

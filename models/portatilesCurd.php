@@ -38,7 +38,7 @@ class PortatilCrud
 
             $this->conexion = new PDO($dsn, $this->users, $this->password); //conexion 
             $this->conexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); //extraccion y formateo de datos
-            // echo 'Conexión Realizada';
+             echo 'Conexión Realizada';
             $this->portatiles = []; //array que contendra los 
 
 
@@ -47,21 +47,7 @@ class PortatilCrud
         }
     }
 
-    public function getPortatil2(){
-        try{
-            $sentencia='SELECT id FROM portatil';
-            $this->consulta = $this->conexion->prepare($sentencia);
-            // echo 'Consulta realizada';
-            // echo '<br>';
-            $this->consulta->execute();
-            $this->portatiles=$this->consulta->fetchAll(PDO::FETCH_ASSOC);
-        
-            return $this->portatiles;
-        }catch(PDOException $e){
-            echo $e->getMessage();
-        }
-
-    }
+  
 
     // }
     public function getPortatil($tipo, $ram, $precio, $pulgadas, $almacenamiento)
@@ -69,7 +55,7 @@ class PortatilCrud
         try {
             $sentencia = "SELECT * FROM portatil WHERE (tipo= '$tipo') AND (ram = $ram) AND (presupuesto= '$precio') AND (pulgadas= '$pulgadas') AND (	almacenamiento='$almacenamiento')";
             $this->consulta = $this->conexion->prepare($sentencia);
-            // echo 'Consulta realizada';
+             echo 'Consulta realizada';
             // echo '<br>';
             $this->consulta->execute();
             $this->portatiles = $this->consulta->fetchAll(PDO::FETCH_ASSOC);
@@ -82,49 +68,7 @@ class PortatilCrud
         }
     }
 
-    //Metodo para actualizar la base de datos
+  
 
-    public  function update($nombre_imagen)
-    {
-
-        try {
-            // echo $nombre_imagen;
-            $sentencia = "UPDATE portatil SET imagen='$nombre_imagen' WHERE id = 10";
-            $this->consulta = $this->conexion->prepare($sentencia);
-            $this->consulta->execute();
-            echo 'aqui llega';
-        } catch (PDOException $e) {
-            echo $e->getMessage();
-        }
-    }
-
-    // public function ContarLaptop()
-    // {
-    //     try {
-
-    //         $sentencia = 'SELECT COUNT(id) FROM portatil';
-
-    //         $this->consulta = $this->conexion->prepare($sentencia);
-    //         $this->consulta->execute();
-    //         $datos = $this->consulta->fetchAll(PDO::FETCH_ASSOC);
-
-    //         require_once($_SERVER['DOCUMENT_ROOT'].'/Dragonf/proyecto/vistas/Vistas_dinamicas/contar.php');
-            
-    //         $r = contar::rercorrer($datos);
-       
-    //         $numero =  random_int(1, $r);
-
-            
-    //             $sentencia2 = "SELECT * FROM portatil WHERE id='$numero'";
-    //             $this->consulta = $this->conexion->prepare($sentencia2);
-    //             $this->consulta->execute();
-    //             $this->portatiles = $this->consulta->fetchAll(PDO::FETCH_ASSOC);
-
-    //             return $this->portatiles;
-             
-    //             //  echo "aleatorio ".$numero."<br>";
-    //     } catch (PDOException $e) {
-    //         echo $e->getMessage();
-    //     }
-    // }
+   
 }

@@ -64,7 +64,7 @@ require_once('../vistas/Vistas_dinamicas/montarTabla.php');
             
           
             $datos = $this->laptop->getPortatil($tipo, $ram, $precio, $pulgadas, $almacenamiento);
-            //  var_dump($datos);
+            //   var_dump($datos);
          return $datos;
         
             // montarTabla::montar($datos);
@@ -74,12 +74,7 @@ require_once('../vistas/Vistas_dinamicas/montarTabla.php');
 
 
 
-     public function act($nombre_imagen){
-        require_once('./proyecto/vistas/vistas_privadas/imagenes.php');
-         $this->laptop->update($nombre_imagen);
-        
 
-     }
      
      
   }

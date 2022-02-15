@@ -8,10 +8,6 @@ class mensaje{
         $asunto = $asunt;
         $mensaje =$mens ;
 
-        echo $correo."<br>";
-        echo $correoUsuario."<br>";
-        echo $asunto."<br>";
-        echo $mensaje."<br>";
 
          mail($correo,$asunto,$mensaje );
         echo 'Mensaje enviado';
