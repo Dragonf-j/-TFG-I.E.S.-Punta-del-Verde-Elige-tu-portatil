@@ -10,9 +10,9 @@ session_start(); ?>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- <link rel="stylesheet" href="../estilos/bootstrap-5.1.3-dist/css/bootstrap.css"> -->
     <link href="../estilos/estilos.css" rel="stylesheet">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CNRJ888MW6"></script>
+    <link rel="stylesheet" href="../estilos/estilos_tipos.css">
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -43,14 +43,6 @@ session_start(); ?>
                 </button>
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
                     <ul class="navbar-nav">
-                        <!-- <li class="nav-item">
-                            <a href="../index.php" class="nav-link">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
-                                    <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
-                                </svg>
-                                Inicio</a>
-                        </li> -->
                         <li class="nav-item">
                             <a href="elegir.php" class="nav-link">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
@@ -75,25 +67,7 @@ session_start(); ?>
                         </li>
 
                     </ul>
-                    <!-- </div>
-                <?php
-                // if (!isset($_SESSION["usuario"])) {
-                //     echo '<div class="collapse navbar-collapse" id="collapsibleNavbar">';
-                //     echo ' <a href="loging.php">Inicia sesion</a>';
-                //     echo  '<a href="registrar.php">Registrate</a>';
-                //     echo '</div>';
-                // } else {
-                //     echo '<div class="collapse navbar-collapse navbar-dark " id="collapsibleNavbar">';
-                //     echo '<p> Bienvenido ' . $_SESSION["usuario"] . '</p>';
-                //     echo '<br>';
-                //     echo '<button type="submit">';
-                //     echo '<a href="destruir.php">Desconectar</a>';
-                //     echo '</button>';
-
-                //     echo '</div>';
-                // }
-                ?>
-            </div> -->
+                
         </nav>
 
 
@@ -129,19 +103,11 @@ session_start(); ?>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#convertible">2 en 1</a>
-                            </li>
-                            <!-- <li class="nav-item">
-                                <a class="nav-link" href="#header">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
-                                        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
-                                    </svg>
-                                    Cabecera</a>
-                            </li> -->
+                            </li>          
                         </ul>
                     </div>
                 </nav>
             </div>
-            <!-- <div class="content"> -->
             <div id="gaming" class="mb-1 contenedores">
 
 
@@ -279,19 +245,9 @@ session_start(); ?>
     </div>
     </div>
 
-    <!-- <footer class="has-sticky-footer">
-        <div>
-            <div>
-                <h6>Redes sociales</h6>
-            </div>
-            <div>
-                <h6>About</h6>
-            </div>
-        </div>
-
-    </footer> -->
+    
 </body>
-<style>
+<!-- <style>
     .contenedores {
         margin-top: 5vh;
 
@@ -310,6 +266,6 @@ session_start(); ?>
         height: auto;
         padding-bottom: 40px;
     }
-</style>
+</style> -->
 
 </html>

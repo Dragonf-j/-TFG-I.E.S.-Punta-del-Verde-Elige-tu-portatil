@@ -1,0 +1,18 @@
+.contenedores {
+    margin-top: 5vh;
+
+}
+
+#beta {
+    background-color: red;
+    width: 50px;
+    border-radius: 5px;
+    float: right;
+}
+
+#cabecera {
+
+    width: 20%;
+    height: auto;
+    padding-bottom: 40px;
+}

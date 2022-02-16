@@ -65,8 +65,6 @@ class montarTabla
             </div>
 
     <?php
-        }else{
-                echo "No hay equipos con esas caracteristicas";
         }
     }
     

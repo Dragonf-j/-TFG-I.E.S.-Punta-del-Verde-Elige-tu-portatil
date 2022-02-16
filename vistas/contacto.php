@@ -15,6 +15,7 @@
     <script src='../javaScript/elegir.js'></script>
     <script src='../javaScript/ajax.js'></script>
     <link rel="stylesheet" href="../estilos/estilos.css">
+    <link rel="stylesheet" href="../estilos/estilos_mail.css">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CNRJ888MW6"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -38,10 +39,7 @@
             <h1>Elige tu portátil</h1>
             <h4 id="beta">Beta</h4>
         </div>
-        <!-- <div>
-            <a href="loging.php">Inicia sesion</a>
-            <a href="registrar.php">Registrate</a>
-        </div> -->
+       
         <nav class="navbar navbar-expand-sm  navbar-dark">
             <div class="container-fluid">
 
@@ -50,14 +48,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
                     <ul class="navbar-nav">
-                        <!-- <li class="nav-item">
-                            <a href="../index.php" class="nav-link">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
-                                    <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
-                                </svg>
-                                Inicio</a>
-                        </li> -->
+                      
                         <li class="nav-item">
                             <a href="elegir.php" class="nav-link">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
@@ -104,7 +95,7 @@
                 <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
             </label>
             <br>
-            <input type="submit" value="Enviar">
+            <input type="submit" value="Enviar" class="boton">
 
         </form>
         <?php
@@ -125,74 +116,6 @@
 
 
 </body>
-<style>
-    .grid {
-        display: inline-grid;
-        grid-template-columns: auto auto auto;
-        gap: 15px;
-        /* margin: 10px; */
 
-    }
-
-    .boton {
-        grid-column: 1 / span 3;
-        grid-row: 4;
-        width: 20%;
-        align-items: center;
-        border-top: 1px solid grey;
-    }
-
-    .conte {
-        grid-column: 1 / span 3;
-    }
-
-    /* .principal {
-        display: grid;
-        grid-template-columns: 33% 33% 33%;
-        grid-column-gap: 5px
-    } */
-
-    .tabla {
-        border: 1px black solid;
-        padding: 8vh;
-    }
-
-    /* footer{
-        bottom: 0;
-        position: fixed;
-        width: 100%;
-    } */
-    /* .container{
-        height: 100vh;
-    } */
-    #boton {
-        display: grid;
-        grid-template-columns: 20%;
-        /* margin-top: 20px; */
-
-    }
-
-    @media only screen and (max-width: 600px) {
-        .grid {
-            display: grid;
-            grid-template-columns: 40% 40%;
-            margin: 10px;
-
-        }
-    }
-    #beta {
-        background-color: red;
-        width: 50px;
-        border-radius: 5px;
-        float: right;
-    }
-
-    #cabecera {
-
-        width: 20%;
-        height: auto;
-        padding-bottom: 40px;
-    }
-</style>
 
 </html>

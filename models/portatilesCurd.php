@@ -38,7 +38,7 @@ class PortatilCrud
 
             $this->conexion = new PDO($dsn, $this->users, $this->password); //conexion 
             $this->conexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); //extraccion y formateo de datos
-             echo 'Conexión Realizada';
+            //  echo 'Conexión Realizada';
             $this->portatiles = []; //array que contendra los 
 
 
@@ -55,7 +55,7 @@ class PortatilCrud
         try {
             $sentencia = "SELECT * FROM portatil WHERE (tipo= '$tipo') AND (ram = $ram) AND (presupuesto= '$precio') AND (pulgadas= '$pulgadas') AND (	almacenamiento='$almacenamiento')";
             $this->consulta = $this->conexion->prepare($sentencia);
-             echo 'Consulta realizada';
+            //  echo 'Consulta realizada';
             // echo '<br>';
             $this->consulta->execute();
             $this->portatiles = $this->consulta->fetchAll(PDO::FETCH_ASSOC);
