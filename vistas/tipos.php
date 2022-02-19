@@ -23,7 +23,7 @@ session_start(); ?>
 
         gtag('config', 'G-CNRJ888MW6');
     </script>
-
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4818848852532039" crossorigin="anonymous"></script>
 
 </head>
 
@@ -67,7 +67,7 @@ session_start(); ?>
                         </li>
 
                     </ul>
-                
+
         </nav>
 
 
@@ -103,7 +103,7 @@ session_start(); ?>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#convertible">2 en 1</a>
-                            </li>          
+                            </li>
                         </ul>
                     </div>
                 </nav>
@@ -245,7 +245,7 @@ session_start(); ?>
     </div>
     </div>
 
-    
+
 </body>
 <!-- <style>
     .contenedores {

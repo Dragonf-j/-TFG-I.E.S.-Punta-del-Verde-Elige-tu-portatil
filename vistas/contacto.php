@@ -27,6 +27,8 @@
 
         gtag('config', 'G-CNRJ888MW6');
     </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4818848852532039"
+     crossorigin="anonymous"></script>
 </head>
 <style>
 
@@ -81,18 +83,18 @@
         <form action="" method="post">
             <label for="nombre">
                <h5> Nombre: </h5>
-                <input type="text" name="nombre" id="nombre">
+                <input type="text" name="nombre" id="nombre" required>
                 
             </label>
             <br>    
             <label for="asunto">
                 <h5>Asunto:</h5>
-                <input type="text" name="asunto" id="asunto">
+                <input type="text" name="asunto" id="asunto" required>
             </label>
             <br>
             <label for="mensaje">
             <h5>Mensaje:</h5>
-                <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
+                <textarea name="mensaje" id="" cols="30" rows="10" required></textarea>
             </label>
             <br>
             <input type="submit" value="Enviar" class="boton">
