@@ -192,6 +192,7 @@
 
 
             $datos =  $cLaptop->mostrar();
+            
             montarTabla::montar($datos);
 
 

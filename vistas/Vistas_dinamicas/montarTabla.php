@@ -50,38 +50,35 @@ class montarTabla
 
     public static function montar($datos)
     {
-        if($datos!=0){
+        if ($datos != 0) {
             foreach ($datos as $key => $value) {
-           
+
                 $enlace = $value['enlace'];
-            }
-        
+
+
 
         ?>
-            <div class="contenedor">
-                <?php
-                    echo $enlace;
-                ?>
-            </div>
+                <!-- <div class="contenedor"> -->
+                    <!-- <table>
+                        <tr>
+                            <th> -->
+                                <?php
+                                echo $enlace;
+                                ?>
+                            <!-- </th>
+                        </tr>
+                    </table> -->
+                <!-- </div> -->
 
-    <?php
+<?php
+            }
         }
     }
-    
-               
-
-       
 }
-    ?>
+?>
 <style>
-    .est {
-        align-items: center;
-        justify-content: center;
-    }
 
-    .contenedor {
-        border: 1px solid black;
-        text-align: center;
-    }
+
+  
 </style>
 <script src="../../javaScript/abrir.js"></script>
