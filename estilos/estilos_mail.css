@@ -43,7 +43,9 @@
     /* margin-top: 20px; */
 
 }
-
+.piesDerecho{
+    float: right;
+}
 @media only screen and (max-width: 600px) {
     .grid {
         display: grid;

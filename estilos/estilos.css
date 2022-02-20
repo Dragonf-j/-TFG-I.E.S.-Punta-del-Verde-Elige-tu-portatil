@@ -86,3 +86,17 @@ nav{
 
     border-color: black;    
 }
+.pieIzquiedo{
+    float: right;
+  
+}
+.piesDerecho{
+    float: left;
+    width: 16px;
+    height: 16px;
+}
+.nav-link{
+    float: left;
+    width: 16px;
+    height: 16px;
+}
