@@ -84,18 +84,18 @@
 
                 <div class="form-check " id="tipo">
                     <label for="Tipo">
-                        <h4>Tipos</h4>
+                        <h4 class="titulo4">Tipos</h4>
                     </label><br>
-                    <label for="gaming">Gaming</label>
+                    <label class="label" for="gaming">Gaming</label>
                     <input type="radio" class="form-check-input" class="tipo" name="tipo" value="gaming">
                     <br>
-                    <label for="basico">Básico</label>
+                    <label for="basico" class="label">Básico</label>
                     <input type="radio" class="form-check-input" class="tipo" name="tipo" value="basico">
                     <br>
-                    <label for="workstation">Workstation</label>
+                    <label for="workstation" class="label">Workstation</label>
                     <input type="radio" class="form-check-input" class="tipo" name="tipo" value="workstation">
                     <br>
-                    <label for="Convertible">2 en 1</label>
+                    <label for="Convertible" class="label">2 en 1</label>
                     <input type="radio" class="form-check-input" class="tipo" name="tipo" value="Convertible">
 
                 </div>
@@ -104,66 +104,64 @@
 
                 <div class="form-check " id="almacenamiento">
                     <label for="Almacenamiento">
-                        <h4>Almacenamiento</h4>
+                        <h4 class="titulo4">Almacenamiento</h4>
                     </label><br>
-                    <label for="menos">250 GB</label>
+                    <label for="menos" class="label">250 GB</label>
                     <input type="radio" class="form-check-input" name="almacenamiento" value="250GB">
                     <br>
-                    <label for="medio">500 GB</label>
+                    <label for="medio" class="label">500 GB</label>
                     <input type="radio" class="form-check-input" name="almacenamiento" value="500GB">
                     <br>
-                    <label for="max">1 TB</label>
+                    <label for="max" class="label">1 TB</label>
                     <input type="radio" class="form-check-input" name="almacenamiento" value="1TB">
                     <br>
-                    <label for="max-extend">+1 TB</label>
+                    <label for="max-extend" class="label">+1 TB</label>
                     <input type="radio" class="form-check-input" name="almacenamiento" value="+1TB">
                 </div>
 
                 <div class="form-check thumbnail" id="ram">
                     <label for="ram">
-                        <h4>RAM</h4>
-
-
+                        <h4 class="titulo4">RAM</h4>
                     </label><br>
-                    <label for="8">8</label>
+                    <label for="8" class="label">8</label>
                     <input type="radio" class="form-check-input" name="memoria" value="8">
                     <br>
-                    <label for="16">16</label>
+                    <label for="16" class="label">16</label>
                     <input type="radio" class="form-check-input" name="memoria" value="16">
                     <br>
-                    <label for="32">32</label>
+                    <label for="32" class="label">32</label>
                     <input type="radio" class="form-check-input" name="memoria" value="32">
                 </div>
 
                 <div class="form-check " id="Precio">
                     <label for="precio">
-                        <h4>Presupuesto</h4>
+                        <h4 class="titulo4">Presupuesto</h4>
 
                     </label><br>
-                    <label for="bajo">Bajo</label>
+                    <label for="bajo" class="label">Bajo</label>
                     <input type="radio" class="form-check-input" name="precio" value="bajo">
                     <br>
-                    <label for="moderado">Moderado</label>
+                    <label for="moderado" class="label">Moderado</label>
                     <input type="radio" class="form-check-input" name="precio" value="moderado">
                     <br>
-                    <label for="elevado">Elevado</label>
+                    <label for="elevado" class="label">Elevado</label>
                     <input type="radio" class="form-check-input" class="form-check-input" name="precio" value="elevado">
                     <br>
 
                 </div>
                 <div class="form-check " id="Pulgadas">
                     <label for="Pulgadas">
-                        <h4 class=" thumbnail">Pulgadas</h4>
+                        <h4 class="titulo4">Pulgadas</h4>
 
                     </label><br>
 
-                    <label for="pequeño">Pequeño</label>
+                    <label for="pequeño" class="label">Pequeño</label>
                     <input type="radio" class="form-check-input" name="Pulgadas" value="pequeño">
                     <br>
-                    <label for="medio">Medio</label>
+                    <label for="medio" class="label">Medio</label>
                     <input type="radio" class="form-check-input" name="Pulgadas" value="medio">
                     <br>
-                    <label for="grande">Grande</label>
+                    <label for="grande" class="label">Grande</label>
                     <input type="radio" class="form-check-input" class="form-check-input" name="Pulgadas" value="grande">
                     <br>
 
