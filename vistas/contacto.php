@@ -17,6 +17,47 @@
     <link rel="stylesheet" href="../estilos/estilos.css">
     <link rel="stylesheet" href="../estilos/estilos_mail.css">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CNRJ888MW6"></script>
+    <script type="text/javascript">
+        var _iub = _iub || [];
+        _iub.csConfiguration = {
+            "ccpaAcknowledgeOnDisplay": true,
+            "ccpaApplies": true,
+            "consentOnContinuedBrowsing": false,
+            "enableCcpa": true,
+            "enableTcf": true,
+            "floatingPreferencesButtonDisplay": "bottom-right",
+            "invalidateConsentWithoutLog": true,
+            "lang": "es",
+            "perPurposeConsent": true,
+            "tcfPurposes": {
+                "1": true,
+                "2": "consent_only",
+                "3": "consent_only",
+                "4": "consent_only",
+                "5": "consent_only",
+                "6": "consent_only",
+                "7": "consent_only",
+                "8": "consent_only",
+                "9": "consent_only",
+                "10": "consent_only"
+            },
+            "whitelabel": false,
+            "cookiePolicyId": 18091383,
+            "siteId": 2546363,
+            "banner": {
+                "acceptButtonDisplay": true,
+                "closeButtonRejects": true,
+                "customizeButtonDisplay": true,
+                "explicitWithdrawal": true,
+                "position": "float-top-center",
+                "rejectButtonDisplay": true
+            }
+        };
+    </script>
+    <script type="text/javascript" src="//cdn.iubenda.com/cs/tcf/stub-v2.js"></script>
+    <script type="text/javascript" src="//cdn.iubenda.com/cs/tcf/safe-tcf-v2.js"></script>
+    <script type="text/javascript" src="//cdn.iubenda.com/cs/ccpa/stub.js"></script>
+    <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
