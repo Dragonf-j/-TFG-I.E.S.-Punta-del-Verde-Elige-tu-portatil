@@ -56,6 +56,8 @@
     <script type="text/javascript" src="//cdn.iubenda.com/cs/tcf/safe-tcf-v2.js"></script>
     <script type="text/javascript" src="//cdn.iubenda.com/cs/ccpa/stub.js"></script>
     <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4818848852532039"
+     crossorigin="anonymous"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 

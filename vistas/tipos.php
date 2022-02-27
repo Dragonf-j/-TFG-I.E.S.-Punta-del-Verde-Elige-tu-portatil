@@ -13,6 +13,8 @@ session_start(); ?>
     <link href="../estilos/estilos.css" rel="stylesheet">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CNRJ888MW6"></script>
     <link rel="stylesheet" href="../estilos/estilos_tipos.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4818848852532039"
+     crossorigin="anonymous"></script>
     <script type="text/javascript">
         var _iub = _iub || [];
         _iub.csConfiguration = {
