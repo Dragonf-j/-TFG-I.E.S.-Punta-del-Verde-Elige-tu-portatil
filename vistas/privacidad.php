@@ -73,7 +73,7 @@
 
         <div id="cabecera">
             <h1>Elige tu portátil</h1>
-            <h4 id="beta">Beta</h4>
+            <!-- <h4 id="beta">Beta</h4> -->
         </div>
 
         <nav class="navbar navbar-expand-sm  navbar-dark">

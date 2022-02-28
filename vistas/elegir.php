@@ -78,7 +78,7 @@
     <header class="container-fluid cabecera">
         <div id="cabecera">
             <h1>Elige tu portátil</h1>
-            <h4 id="beta">Beta</h4>
+            <!-- <h4 id="beta">Beta</h4> -->
         </div>
         <div id="nav">
             <nav class="navbar navbar-expand-sm  navbar-dark">
