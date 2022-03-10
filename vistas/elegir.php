@@ -56,8 +56,7 @@
     <script type="text/javascript" src="//cdn.iubenda.com/cs/tcf/safe-tcf-v2.js"></script>
     <script type="text/javascript" src="//cdn.iubenda.com/cs/ccpa/stub.js"></script>
     <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4818848852532039"
-     crossorigin="anonymous"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4818848852532039" crossorigin="anonymous"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -132,7 +131,13 @@
                     <label for="Tipo">
                         <h4>Tipos</h4>
                     </label><br>
-                    <label for="gaming">Gaming</label>
+                    <label  for="gaming">Gaming 
+                    <div class="tooltip"> 
+                        
+                    <span class="tooltiptext">PRueba</span>
+                    </div>
+                    </label>
+                  
                     <input type="radio" class="form-check-input" class="tipo" name="tipo" value="gaming">
                     <br>
                     <label for="basico">Básico</label>
@@ -161,8 +166,8 @@
                     <label for="max">1 TB</label>
                     <input type="radio" class="form-check-input" name="almacenamiento" value="1TB">
                     <br>
-                    <label for="max-extend">+1 TB</label>
-                    <input type="radio" class="form-check-input" name="almacenamiento" value="+1TB">
+                    <!-- <label for="max-extend">+1 TB</label>
+                    <input type="radio" class="form-check-input" name="almacenamiento" value="+1TB"> -->
                 </div>
 
                 <div class="form-check thumbnail" id="ram">
@@ -173,6 +178,7 @@
                     </label><br>
                     <label for="8">8</label>
                     <input type="radio" class="form-check-input" name="memoria" value="8">
+
                     <br>
                     <label for="16">16</label>
                     <input type="radio" class="form-check-input" name="memoria" value="16">
