@@ -69,9 +69,7 @@
     </script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4818848852532039" crossorigin="anonymous"></script>
 </head>
-<style>
 
-</style>
 
 <body>
     <header class="container-fluid cabecera">
@@ -103,44 +101,28 @@
                                     </svg>
                                     Tipos portátiles</a>
                             </li>
-                            <li class="nav-item">
-                                <a href="contacto.php" class="nav-link">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
-                                    </svg>
-                                    Contacto</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="privacidad.php" class="nav-link">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill" viewBox="0 0 16 16">
-                                        <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z" />
-                                    </svg>
-                                    Privacidad</a>
-                            </li>
-                        </ul>
+
 
             </nav>
+        </div>
+        <div>
+            <input type="checkbox" name="modo" id="check" class="modo">
         </div>
     </header>
 
     <div>
-        <div class="container bg-light d-flex flex-column justify-content-around ">
+        <div class="container bg-grey d-flex flex-column justify-content-around ">
             <form action="" method="POST" class="grid">
 
-                <div class="form-check " id="tipo">
+                <div class="form-check" id="tipo">
                     <label for="Tipo">
                         <h4>Tipos</h4>
                     </label><br>
-                    <label  for="gaming">Gaming 
-                    <div class="tooltip"> 
-                        
-                    <span class="tooltiptext">PRueba</span>
-                    </div>
+                    <label for="gaming" data-bs-toggle="tooltip" data-bs-placement="right" title="Tooltip on right">Gaming
                     </label>
-                  
                     <input type="radio" class="form-check-input" class="tipo" name="tipo" value="gaming">
                     <br>
-                    <label for="basico">Básico</label>
+                    <label for="basico" data-bs-toggle="tooltip" data-bs-placement="top" title="Prueba 2">Básico</label>
                     <input type="radio" class="form-check-input" class="tipo" name="tipo" value="basico">
                     <br>
                     <label for="workstation">Workstation</label>
@@ -235,7 +217,7 @@
 
         </div>
 
-        <div class="container bg-light p-2 ms-auto principal thumbnail">
+        <div class="container bg-grey p-2 ms-auto principal thumbnail">
 
             <?php
             require_once('../controlers/controlador.php');
@@ -252,6 +234,24 @@
 
         </div>
 
+        <footer class="container-fluid pie post-footer">
+            <nav class="navbar navbar-expand-sm  navbar-dark">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="contacto.php" class="nav-link">
+
+                            Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="privacidad.php" class="nav-link">
+
+                            Privacidad</a>
+                    </li>
+                </ul>
+
+            </nav>
+
+        </footer>
 </body>
 
 

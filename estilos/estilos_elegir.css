@@ -3,15 +3,29 @@
     grid-template-columns: auto auto auto;
     gap: 15px;
 }
+label{
+    color: rgba(255,255,255,.55);
+}
 .boton {
     grid-column: 1 / span 3;
-    grid-row: 4;
+    grid-row: 0;
     width: 20%;
-    align-items: center;
-    border-top: 1px solid grey;
+    /* align-items: center;
+    border-top: 1px solid grey; */
     background-color: rgb(49, 49, 49);
     color: rgb(223, 223, 223);
+    border-radius: 5px;
+box-shadow: 2px 2px grey;
 }
+.pie{
+    height: 50px; 
+    width:100%; 
+    position:absolute; 
+    bottom:0; 
+    left:0; 
+}
+
+
 .conte {
     grid-column: 1 / span 3;
 }
@@ -49,10 +63,9 @@
         position: relative;
         display: inline-block;
         border-bottom: 1px dotted black;
-      }
-      
-   .tooltiptext:hover {
-       
+    }
+
+    .tooltip .tooltiptext {
         visibility: hidden;
         width: 120px;
         background-color: black;
@@ -64,9 +77,9 @@
         z-index: 1;
         top: -5px;
         left: 110%;
-      }
-      
-       .tooltiptext::after {
+    }
+
+    .tooltip .tooltiptext::after {
         content: "";
         position: absolute;
         top: 50%;
@@ -75,7 +88,9 @@
         border-width: 5px;
         border-style: solid;
         border-color: transparent black transparent transparent;
-      }
-       .tooltiptext:hover {
+    }
+
+    .tooltip:hover .tooltiptext {
         visibility: visible;
-      }
+    }
+   
