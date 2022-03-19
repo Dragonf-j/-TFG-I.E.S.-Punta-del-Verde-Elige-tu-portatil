@@ -104,16 +104,19 @@
 
 
             </nav>
+            <div class="inter">
+                <label class="switch">
+                    <input type="checkbox">
+                    <div class="slider round"></div>
+                </label>
+            </div>
         </div>
-        <div>
-            <input type="checkbox" name="modo" id="check" class="modo">
-        </div>
+
     </header>
 
     <div>
         <div class="container bg-grey d-flex flex-column justify-content-around ">
             <form action="" method="POST" class="grid">
-
                 <div class="form-check" id="tipo">
                     <label for="Tipo">
                         <h4>Tipos</h4>
