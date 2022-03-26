@@ -1,0 +1,19 @@
+
+.btmain{
+    background-color: rgb(49, 49, 49);
+    color: rgb(223, 223, 223);
+    border-radius: 5px;
+    box-shadow: 2px 2px grey;
+    padding: 3em;
+    margin: 5em;
+    width: 15em;
+    height: 25em;
+
+}
+.main{
+    display: flex;
+    justify-content: center;
+    
+}
+
+

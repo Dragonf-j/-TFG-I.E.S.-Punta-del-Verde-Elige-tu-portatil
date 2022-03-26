@@ -14,6 +14,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
     <link href="../estilos/estilos.css" rel="stylesheet">
     <link rel="stylesheet" href="../estilos/estilos_elegir.css">
+    <link rel="stylesheet" href="../estilos/estilos_main.css">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CNRJ888MW6"></script>
     <script type="text/javascript">
         var _iub = _iub || [];
@@ -73,7 +74,7 @@
 
 <body>
     <header class="container-fluid cabecera">
-        <div id="cabecera">
+    <div id="cabecera">
             
             <h1>Elige tu portátil</h1>
             <!-- <h4 id="beta">Beta</h4> -->
@@ -122,34 +123,27 @@
 
     </header>
 
-    <div>
-        <h1 class="titulo">Portátiles</h1>
-        
-        <button type="submit">
+    <div class="main" >
+        <button type="submit" class="btmain" id="laptop">
             <h3>Portátiles</h3>
             <a href=""></a>
         </button>
-        <button type="submit">
+        <button type="submit" class="btmain">
             <h3>Ratones</h3>
             <a href=""></a>
         </button>
-        <button type="submit">
+        <button type="submit" class="btmain">
             <h3>Teclados</h3>
             <a href=""></a>
         </button>
-        <button type="submit">
+        <button type="submit" class="btmain">
             <h3>Auricuales</h3>
             <a href=""></a>
         </button>
-
-
-
-        
-
   
 
-        </div>
-
+        </div >
+            
         <footer class="container-fluid pie post-footer">
             <nav class="navbar navbar-expand-sm  navbar-dark">
                 <ul class="navbar-nav">
