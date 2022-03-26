@@ -1,3 +1,3 @@
 <?php
-header('Location:vistas/elegir.php');
+header('Location:vistas/main.php');
 ?>

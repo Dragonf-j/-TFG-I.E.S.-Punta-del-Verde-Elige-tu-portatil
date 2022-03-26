@@ -12,8 +12,8 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
-    <link href="../estilos/estilos.css" rel="stylesheet">
-    <link rel="stylesheet" href="../estilos/estilos_elegir.css">
+    <link href="../../estilos/estilos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../estilos/estilos_elegir.css">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CNRJ888MW6"></script>
     <script type="text/javascript">
         var _iub = _iub || [];
@@ -225,8 +225,8 @@
         <div class="container bg-grey p-2 ms-auto principal thumbnail">
 
             <?php
-            require_once('../controlers/controlador.php');
-            require_once('../vistas/Vistas_dinamicas/montarTabla.php');
+            require_once('../../controlers/controlador.php');
+            require_once('../../vistas/Vistas_dinamicas/montarTabla.php');
             $cLaptop = new ControladorPortatil();
 
 
