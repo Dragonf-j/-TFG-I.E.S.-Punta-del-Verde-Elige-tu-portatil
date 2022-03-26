@@ -154,3 +154,9 @@ box-shadow: 2px 2px grey;
       .slider.round:before {
         border-radius: 50%;
       }
+
+      .titulo{
+        color: rgb(223, 223, 223);
+        text-align: center;
+        padding: 15px;
+      }

@@ -104,7 +104,6 @@
 
 
             </nav>
-            <!-- Checkbox desactivado temporalmente -->
             <!-- <div class="inter">
                 <label class="switch">
                     <input type="checkbox">
@@ -116,7 +115,7 @@
     </header>
 
     <div>
-        <h1 class="titulo">Portátiles</h1>
+    <h1 class="titulo">Auriculares</h1>
         <div class="container bg-grey d-flex flex-column justify-content-around ">
             <form action="" method="POST" class="grid">
                 <div class="form-check" id="tipo">
