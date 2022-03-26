@@ -12,8 +12,8 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
-    <link href="../estilos/estilos.css" rel="stylesheet">
-    <link rel="stylesheet" href="../estilos/estilos_elegir.css">
+    <link href="../../estilos/estilos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../estilos/estilos_elegir.css">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CNRJ888MW6"></script>
     <script type="text/javascript">
         var _iub = _iub || [];
@@ -87,19 +87,25 @@
                     <div class="collapse navbar-collapse" id="collapsibleNavbar">
                         <ul class="navbar-nav">
 
-                            <li class="nav-item">
+                        <li class="nav-item">
                                 <a href="elegir.php" class="nav-link">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-                                    </svg>
-                                    Elige tu portátil</a>
+                                    
+                                    Portátiles</a>
                             </li>
                             <li class="nav-item">
-                                <a href="tipos.php" class="nav-link">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-laptop" viewBox="0 0 16 16">
-                                        <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5h11zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5z" />
-                                    </svg>
-                                    Tipos portátiles</a>
+                                <a href="elegir_raton.php" class="nav-link">
+                                   
+                                    Ratones</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="elegir_teclado.php" class="nav-link">
+                                    
+                                    Teclados</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="elegir_cascos.php" class="nav-link">
+                                   
+                                    Auricurales</a>
                             </li>
 
 

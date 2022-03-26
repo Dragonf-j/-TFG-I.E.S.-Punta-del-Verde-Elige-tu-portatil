@@ -74,6 +74,7 @@
 <body>
     <header class="container-fluid cabecera">
         <div id="cabecera">
+            
             <h1>Elige tu portátil</h1>
             <!-- <h4 id="beta">Beta</h4> -->
         </div>
@@ -96,6 +97,16 @@
                                 <a href="vistas_busqueda/elegir_raton.php" class="nav-link">
                                    
                                     Ratones</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="vistas_busqueda/elegir_teclado.php" class="nav-link">
+                                    
+                                    Teclados</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="vistas_busqueda/elegir_cascos.php" class="nav-link">
+                                   
+                                    Auricurales</a>
                             </li>
 
 
