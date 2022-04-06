@@ -55,26 +55,30 @@ class montarTabla
 
                 $enlace = $value['enlace'];
 
-
-
-        ?>
-                <!-- <div class="contenedor"> -->
-                    <!-- <table>
-                        <tr>
-                            <th> -->
-                                <?php
                                 echo $enlace;
                                 ?>
-                            <!-- </th>
-                        </tr>
-                    </table> -->
-                <!-- </div> -->
 
 <?php
             }
         }
     }
+
+    // Metodo optener el valor del precio de amazon y de pccomponentes y luego poder comprarlos para saber cual es mayor o menor
+    public static function compare($datos)
+    {
+        if ($datos != 0) {
+            foreach ($datos as $key => $value) {
+
+                $enlace = $value['enlace'];
+            }
+        }
+    }
 }
+
+
+
+
+
 ?>
 <style>
 
