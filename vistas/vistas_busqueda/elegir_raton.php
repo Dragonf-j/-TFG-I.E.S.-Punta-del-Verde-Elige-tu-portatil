@@ -125,41 +125,38 @@
         <div class="container bg-grey d-flex flex-column justify-content-around ">
             <form action="" method="POST" class="grid">
                 <div class="form-check" id="tipo">
-                    <label for="Tipo">
-                        <h4>Tipos</h4>
+                    <label for="conec">
+                        <h4>Conexion</h4>
                     </label><br>
-                    <label for="gaming" data-bs-toggle="tooltip" data-bs-placement="right" title="Tooltip on right">Gaming
+                    <label for="bluetooth" data-bs-toggle="tooltip" data-bs-placement="right" title="Tooltip on right">Bluetooth
                     </label>
-                    <input type="radio" class="form-check-input" class="tipo" name="tipo" value="gaming">
+                    <input type="radio" class="form-check-input" class="conec" name="conec" value="bluetooth">
                     <br>
-                    <label for="basico" data-bs-toggle="tooltip" data-bs-placement="top" title="Prueba 2">Básico</label>
-                    <input type="radio" class="form-check-input" class="tipo" name="tipo" value="basico">
+                    <label for="inalambrico" data-bs-toggle="tooltip" data-bs-placement="conec" title="Prueba 2">Inalambrico</label>
+                    <input type="radio" class="form-check-input" class="conec" name="conec" value="inalambrico">
                     <br>
-                    <label for="workstation">Workstation</label>
-                    <input type="radio" class="form-check-input" class="tipo" name="tipo" value="workstation">
+                    <label for="Cable">Cable</label>
+                    <input type="radio" class="form-check-input" class="conec" name="conec" value="cable">
                     <br>
-                    <label for="Convertible">2 en 1</label>
-                    <input type="radio" class="form-check-input" class="tipo" name="tipo" value="Convertible">
+                   
 
                 </div>
 
 
 
-                <div class="form-check " id="almacenamiento">
-                    <label for="Almacenamiento">
-                        <h4>Almacenamiento</h4>
+                <div class="form-check thumbnail" id="ram">
+                    <label for="rgb">
+                        <h4>RGB</h4>
+
+
                     </label><br>
-                    <label for="menos">250 GB</label>
-                    <input type="radio" class="form-check-input" name="almacenamiento" value="250GB">
+                    <label for="si">Si</label>
+                    <input type="radio" class="form-check-input" name="memoria" value="8">
+
                     <br>
-                    <label for="medio">500 GB</label>
-                    <input type="radio" class="form-check-input" name="almacenamiento" value="500GB">
+                    <label for="no">No</label>
+                    <input type="radio" class="form-check-input" name="memoria" value="16">
                     <br>
-                    <label for="max">1 TB</label>
-                    <input type="radio" class="form-check-input" name="almacenamiento" value="1TB">
-                    <br>
-                    <!-- <label for="max-extend">+1 TB</label>
-                    <input type="radio" class="form-check-input" name="almacenamiento" value="+1TB"> -->
                 </div>
 
                 <div class="form-check thumbnail" id="ram">

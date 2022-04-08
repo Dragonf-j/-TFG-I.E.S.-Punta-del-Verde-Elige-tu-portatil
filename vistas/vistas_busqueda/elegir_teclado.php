@@ -70,14 +70,10 @@
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4818848852532039" crossorigin="anonymous"></script>
 </head>
 
-
 <body>
     <header class="container-fluid cabecera">
         <div id="cabecera">
-            <h1>Elige tu portátil
-                
-            </h1>
-            <!-- <h4 id="beta">Beta</h4> -->
+            <a href="../main.php" class="link-light"><h1 class="granT">Elige tu portátil</h1></a>
         </div>
         <div id="nav">
             <nav class="navbar navbar-expand-sm  navbar-dark">
@@ -128,57 +124,48 @@
             <form action="" method="POST" class="grid">
                 <div class="form-check" id="tipo">
                     <label for="Tipo">
-                        <h4>Tipos</h4>
+                        <h4>Tipo</h4>
                     </label><br>
-                    <label for="gaming" data-bs-toggle="tooltip" data-bs-placement="right" title="Tooltip on right">Gaming
+                    <label for="mecanico" data-bs-toggle="tooltip" data-bs-placement="right" title="Tooltip on right">Mencánico
                     </label>
-                    <input type="radio" class="form-check-input" class="tipo" name="tipo" value="gaming">
+                    <input type="radio" class="form-check-input" class="tipo" name="tipo" value="mecanico">
                     <br>
-                    <label for="basico" data-bs-toggle="tooltip" data-bs-placement="top" title="Prueba 2">Básico</label>
-                    <input type="radio" class="form-check-input" class="tipo" name="tipo" value="basico">
-                    <br>
-                    <label for="workstation">Workstation</label>
-                    <input type="radio" class="form-check-input" class="tipo" name="tipo" value="workstation">
-                    <br>
-                    <label for="Convertible">2 en 1</label>
-                    <input type="radio" class="form-check-input" class="tipo" name="tipo" value="Convertible">
+                    <label for="Membrana" data-bs-toggle="tooltip" data-bs-placement="top" title="Prueba 2">Membrana</label>
+                    <input type="radio" class="form-check-input" class="tipo" name="tipo" value="Membrana">
 
                 </div>
 
 
 
                 <div class="form-check " id="almacenamiento">
-                    <label for="Almacenamiento">
-                        <h4>Almacenamiento</h4>
+                    <label for="tamano">
+                        <h4>Tamaño</h4>
                     </label><br>
-                    <label for="menos">250 GB</label>
-                    <input type="radio" class="form-check-input" name="almacenamiento" value="250GB">
+                    <label for="cien">100%</label>
+                    <input type="radio" class="form-check-input" name="tamano" value="100">
                     <br>
-                    <label for="medio">500 GB</label>
-                    <input type="radio" class="form-check-input" name="almacenamiento" value="500GB">
+                    <label for="tkl">75%</label>
+                    <input type="radio" class="form-check-input" name="tamano" value="tkl">
                     <br>
-                    <label for="max">1 TB</label>
-                    <input type="radio" class="form-check-input" name="almacenamiento" value="1TB">
+                    <label for="mini">60%</label>
+                    <input type="radio" class="form-check-input" name="tamano" value="mini">
                     <br>
-                    <!-- <label for="max-extend">+1 TB</label>
-                    <input type="radio" class="form-check-input" name="almacenamiento" value="+1TB"> -->
+
                 </div>
 
                 <div class="form-check thumbnail" id="ram">
-                    <label for="ram">
-                        <h4>RAM</h4>
+                    <label for="rgb">
+                        <h4>RGB</h4>
 
 
                     </label><br>
-                    <label for="8">8</label>
+                    <label for="si">Si</label>
                     <input type="radio" class="form-check-input" name="memoria" value="8">
 
                     <br>
-                    <label for="16">16</label>
+                    <label for="no">No</label>
                     <input type="radio" class="form-check-input" name="memoria" value="16">
                     <br>
-                    <label for="32">32</label>
-                    <input type="radio" class="form-check-input" name="memoria" value="32">
                 </div>
 
                 <div class="form-check " id="Precio">
@@ -197,26 +184,7 @@
                     <br>
 
                 </div>
-                <div class="form-check " id="Pulgadas">
-                    <label for="Pulgadas">
-                        <h4 class=" thumbnail">Pulgadas</h4>
-
-                    </label><br>
-
-                    <label for="pequeño">Pequeño</label>
-                    <input type="radio" class="form-check-input" name="Pulgadas" value="pequeño">
-                    <br>
-                    <label for="medio">Medio</label>
-                    <input type="radio" class="form-check-input" name="Pulgadas" value="medio">
-                    <br>
-                    <label for="grande">Grande</label>
-                    <input type="radio" class="form-check-input" class="form-check-input" name="Pulgadas" value="grande">
-                    <br>
-
-                </div>
-
-
-
+                
 
 
                 <input class="boton" type="submit" value="Buscar" name="mostrar">
