@@ -200,14 +200,13 @@
         <div class="container bg-grey p-2 ms-auto principal thumbnail">
 
             <?php
-            require_once('../controlers/controlador.php');
-            require_once('../vistas/Vistas_dinamicas/montarTabla.php');
-            $cLaptop = new ControladorPortatil();
+            require_once('../../controlers/controler_keyboard/controlador.php');
+            require_once('../../vistas/Vistas_dinamicas/montarTabla.php');
+            $cKeyboard = new controladorKeyBoard();
 
+            // $datos =  $cLaptop->mostrar();
 
-            $datos =  $cLaptop->mostrar();
-
-            montarTabla::montar($datos);
+            // montarTabla::montar($datos);
 
 
             ?>

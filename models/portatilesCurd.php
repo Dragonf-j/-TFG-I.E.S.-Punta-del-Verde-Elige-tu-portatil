@@ -1,5 +1,5 @@
 <?php
-require_once('portatil.php');
+// require_once('portatil.php');
 
 class PortatilCrud
 {
