@@ -1,5 +1,5 @@
 <?php
-class ratoncrud{
+class cascocrud{
     private $conexion;
     private $host;
     private $users;

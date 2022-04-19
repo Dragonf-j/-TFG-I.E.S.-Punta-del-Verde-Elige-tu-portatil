@@ -1,14 +1,14 @@
 <?php
 require_once('../../vistas/Vistas_dinamicas/montarTabla.php');
 
-class controladorKeyBoard{
+class controladorMouse{
 
-    private $keyboard;
+    private $mouse;
 
     public function __construct()
     {
-        require_once('../../models/tecladocrud.php');
-        $this->keyboard =  new tecladocrud(); 
+        require_once('../../models/ratoncrud.php');
+        $this->mouse =  new ratoncrud(); 
     }
 }
 ?>

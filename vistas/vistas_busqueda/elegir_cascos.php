@@ -230,14 +230,9 @@
         <div class="container bg-grey p-2 ms-auto principal thumbnail">
 
             <?php
-            require_once('../controlers/controlador.php');
-            require_once('../vistas/Vistas_dinamicas/montarTabla.php');
-            $cLaptop = new ControladorPortatil();
-
-
-            $datos =  $cLaptop->mostrar();
-
-            montarTabla::montar($datos);
+            require_once('../../controlers/controler_headset/controlador.php');
+            require_once('../../vistas/Vistas_dinamicas/montarTabla.php');
+            $cMouse = new controladorHeadset();
 
 
             ?>
