@@ -87,24 +87,24 @@
                     <div class="collapse navbar-collapse" id="collapsibleNavbar">
                         <ul class="navbar-nav">
 
-                        <li class="nav-item">
+                            <li class="nav-item">
                                 <a href="elegir.php" class="nav-link">
-                                    
+
                                     Portátiles</a>
                             </li>
                             <li class="nav-item">
                                 <a href="elegir_raton.php" class="nav-link">
-                                   
+
                                     Ratones</a>
                             </li>
                             <li class="nav-item">
                                 <a href="elegir_teclado.php" class="nav-link">
-                                    
+
                                     Teclados</a>
                             </li>
                             <li class="nav-item">
                                 <a href="elegir_cascos.php" class="nav-link">
-                                   
+
                                     Auricurales</a>
                             </li>
 
@@ -121,7 +121,7 @@
     </header>
 
     <div>
-    <h1 class="titulo">Auriculares</h1>
+        <h1 class="titulo">Auriculares</h1>
         <div class="container bg-grey d-flex flex-column justify-content-around ">
             <form action="" method="POST" class="grid">
                 <div class="form-check" id="tipo">
@@ -223,40 +223,45 @@
             </form>
 
 
+            <div class="container bg-grey p-2 ms-auto principal thumbnail">
+
+                <?php
+                require_once('../../controlers/controler_headset/controlador.php');
+                require_once('../../vistas/Vistas_dinamicas/montarTabla.php');
+                $cMouse = new controladorHeadset();
 
 
-        </div>
+                ?>
 
-        <div class="container bg-grey p-2 ms-auto principal thumbnail">
-
-            <?php
-            require_once('../../controlers/controler_headset/controlador.php');
-            require_once('../../vistas/Vistas_dinamicas/montarTabla.php');
-            $cMouse = new controladorHeadset();
-
-
-            ?>
+            </div>
 
         </div>
 
-        <footer class="container-fluid pie post-footer">
-            <nav class="navbar navbar-expand-sm  navbar-dark">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="contacto.php" class="nav-link">
 
-                            Contacto</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="privacidad.php" class="nav-link">
 
-                            Privacidad</a>
-                    </li>
-                </ul>
+        <div class="falso">
 
-            </nav>
+        </div>
+        <div class="Divfooter footer has-stiky-footer footer">
+            <footer class="container-fluid pie post-footer">
+                <nav class="navbar navbar-expand-sm  navbar-dark">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="../contacto.php" class="nav-link">
 
-        </footer>
+                                Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../privacidad.php" class="nav-link">
+
+                                Privacidad</a>
+                        </li>
+                    </ul>
+
+                </nav>
+
+            </footer>
+        </div>
 </body>
 
 

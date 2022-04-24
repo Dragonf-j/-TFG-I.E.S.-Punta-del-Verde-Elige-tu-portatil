@@ -57,12 +57,12 @@ box-shadow: 2px 2px grey;
         .grid {
             display: inline;
         }
-        .Divfooter{
+        /* .Divfooter{
           position: absolute;
           bottom: 0%;
           height: auto;
           display: block;
-        }
+        } */
         
       }
 
@@ -180,4 +180,6 @@ box-shadow: 2px 2px grey;
       .Divfooter{
        
         display: block;
+        position: sticky;
       }
+     

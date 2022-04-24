@@ -73,7 +73,9 @@
 <body>
     <header class="container-fluid cabecera">
         <div id="cabecera">
-            <a href="../main.php" class="link-light"><h1 class="granT">Elige tu portátil</h1></a>
+            <a href="../main.php" class="link-light">
+                <h1 class="granT">Elige tu portátil</h1>
+            </a>
         </div>
         <div id="nav">
             <nav class="navbar navbar-expand-sm  navbar-dark">
@@ -85,24 +87,24 @@
                     <div class="collapse navbar-collapse" id="collapsibleNavbar">
                         <ul class="navbar-nav">
 
-                        <li class="nav-item">
+                            <li class="nav-item">
                                 <a href="elegir.php" class="nav-link">
-                                    
+
                                     Portátiles</a>
                             </li>
                             <li class="nav-item">
                                 <a href="elegir_raton.php" class="nav-link">
-                                   
+
                                     Ratones</a>
                             </li>
                             <li class="nav-item">
                                 <a href="elegir_teclado.php" class="nav-link">
-                                    
+
                                     Teclados</a>
                             </li>
                             <li class="nav-item">
                                 <a href="elegir_cascos.php" class="nav-link">
-                                   
+
                                     Auricurales</a>
                             </li>
 
@@ -119,7 +121,7 @@
     </header>
 
     <div>
-    <h1 class="titulo">Teclados</h1>
+        <h1 class="titulo">Teclados</h1>
         <div class="container bg-grey d-flex flex-column justify-content-around ">
             <form action="" method="POST" class="grid">
                 <div class="form-check" id="tipo">
@@ -184,7 +186,7 @@
                     <br>
 
                 </div>
-                
+
 
 
                 <input class="boton" type="submit" value="Buscar" name="mostrar">
@@ -192,45 +194,50 @@
 
             </form>
 
+            <div class="container bg-grey p-2 ms-auto principal thumbnail">
 
+                <?php
+                require_once('../../controlers/controler_keyboard/controlador.php');
+                require_once('../../vistas/Vistas_dinamicas/montarTabla.php');
+                $cKeyboard = new controladorKeyBoard();
+
+                // $datos =  $cLaptop->mostrar();
+
+                // montarTabla::montar($datos);
+
+
+                ?>
+
+            </div>
+
+            <div class="falso">
+
+            </div>
 
 
         </div>
 
-        <div class="container bg-grey p-2 ms-auto principal thumbnail">
 
-            <?php
-            require_once('../../controlers/controler_keyboard/controlador.php');
-            require_once('../../vistas/Vistas_dinamicas/montarTabla.php');
-            $cKeyboard = new controladorKeyBoard();
+        <div class="Divfooter footer has-stiky-footer footer">
+            <footer class="container-fluid pie post-footer">
+                <nav class="navbar navbar-expand-sm  navbar-dark">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="../contacto.php" class="nav-link">
 
-            // $datos =  $cLaptop->mostrar();
+                                Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../privacidad.php" class="nav-link">
 
-            // montarTabla::montar($datos);
+                                Privacidad</a>
+                        </li>
+                    </ul>
 
+                </nav>
 
-            ?>
-
+            </footer>
         </div>
-
-        <footer class="container-fluid pie post-footer">
-            <nav class="navbar navbar-expand-sm  navbar-dark">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="contacto.php" class="nav-link">
-
-                            Contacto</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="privacidad.php" class="nav-link">
-
-                            Privacidad</a>
-                    </li>
-                </ul>
-
-            </nav>
-
-        </footer>
 </body>
 
 
