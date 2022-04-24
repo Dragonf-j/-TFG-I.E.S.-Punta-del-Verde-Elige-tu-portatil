@@ -4,7 +4,6 @@
 <!DOCTYPE html>
 <html>
 
-
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -16,6 +15,7 @@
     <script src='../javaScript/ajax.js'></script>
     <link rel="stylesheet" href="../estilos/estilos.css">
     <link rel="stylesheet" href="../estilos/estilos_mail.css">
+    <link rel="stylesheet" href="../estilos/estilos_main.css">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CNRJ888MW6"></script>
     <script type="text/javascript">
         var _iub = _iub || [];
@@ -123,21 +123,22 @@
         </div>
 
     </header>
-    <div class="container bg-light d-flex flex-column justify-content-around ">
+    <div class="container contenedor bg-grey d-flex flex-column justify-content-around ">
+        <h2>Contacto</h2>
         <form action="" method="post">
-            <label for="nombre">
-                <h5> Nombre: </h5>
-                <input type="text" name="nombre" id="nombre" required>
+            <label for="mail">
+                <h5 class="titutlo5"> Email: </h5>
+                <input type="mail" name="nombre" id="mail" required>
 
             </label>
             <br>
             <label for="asunto">
-                <h5>Asunto:</h5>
+                <h5 class="titutlo5">Asunto:</h5>
                 <input type="text" name="asunto" id="asunto" required>
             </label>
             <br>
             <label for="mensaje">
-                <h5>Mensaje:</h5>
+                <h5 class="titutlo5">Mensaje:</h5>
                 <textarea name="mensaje" id="" cols="30" rows="10" required></textarea>
             </label>
             <br>
@@ -157,8 +158,30 @@
         }
         ?>
     </div>
+    <div class="falso">
 
+        </div>
 
+    <div class="Divfooter footer has-stiky-footer footer">
+            <footer class="container-fluid pie post-footer">
+                <nav class="navbar navbar-expand-sm  navbar-dark">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+
+                                Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="privacidad.php" class="nav-link">
+
+                                Privacidad</a>
+                        </li>
+                    </ul>
+
+                </nav>
+
+            </footer>
+        </div>
 
 
 </body>

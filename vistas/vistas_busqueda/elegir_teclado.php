@@ -128,7 +128,7 @@
                     <label for="Tipo">
                         <h4>Tipo</h4>
                     </label><br>
-                    <label for="mecanico" data-bs-toggle="tooltip" data-bs-placement="right" title="Tooltip on right">Mencánico
+                    <label for="mecanico" data-bs-toggle="tooltip" data-bs-placement="right" title="Tooltip on right">Mecánico
                     </label>
                     <input type="radio" class="form-check-input" class="tipo" name="tipo" value="mecanico">
                     <br>

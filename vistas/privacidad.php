@@ -10,9 +10,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
     <link href="../estilos/estilos.css" rel="stylesheet">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CNRJ888MW6"></script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4818848852532039"
-     crossorigin="anonymous"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4818848852532039" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../estilos/estilos_tipos.css">
+    <link rel="stylesheet" href="../estilos/estilos_main.css">
     <script type="text/javascript">
         var _iub = _iub || [];
         _iub.csConfiguration = {
@@ -69,7 +69,7 @@
 </head>
 
 <body>
-<header class="container-fluid cabecera">
+    <header class="container-fluid cabecera">
         <div id="cabecera">
             <h1>Elige tu portátil</h1>
             <!-- <h4 id="beta">Beta</h4> -->
@@ -117,8 +117,50 @@
         </div>
 
     </header>
-    <div class="container bg-light d-flex flex-column justify-content-around ">
-    <a href="https://www.iubenda.com/privacy-policy/18091383" class="iubenda-white no-brand iubenda-noiframe iubenda-embed iubenda-noiframe " title="Política de Privacidad ">Política de Privacidad</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+    <div class="container bg-grey d-flex contenedor flex-column justify-content-around ">
+        <h2>Privacidad</h2>
+        <a href="https://www.iubenda.com/privacy-policy/18091383" class="iubenda-white no-brand iubenda-noiframe iubenda-embed iubenda-noiframe " title="Política de Privacidad ">Política de Privacidad</a>
+        <script type="text/javascript">
+            (function(w, d) {
+                var loader = function() {
+                    var s = d.createElement("script"),
+                        tag = d.getElementsByTagName("script")[0];
+                    s.src = "https://cdn.iubenda.com/iubenda.js";
+                    tag.parentNode.insertBefore(s, tag);
+                };
+                if (w.addEventListener) {
+                    w.addEventListener("load", loader, false);
+                } else if (w.attachEvent) {
+                    w.attachEvent("onload", loader);
+                } else {
+                    w.onload = loader;
+                }
+            })(window, document);
+        </script>
+    </div>
+    <div class="falso">
+
+    </div>
+
+    <div class="Divfooter footer has-stiky-footer footer">
+        <footer class="container-fluid pie post-footer">
+            <nav class="navbar navbar-expand-sm  navbar-dark">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="contacto.php" class="nav-link">
+
+                            Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+
+                            Privacidad</a>
+                    </li>
+                </ul>
+
+            </nav>
+
+        </footer>
     </div>
 </body>
 
