@@ -87,24 +87,24 @@
                     <div class="collapse navbar-collapse" id="collapsibleNavbar">
                         <ul class="navbar-nav">
 
-                        <li class="nav-item">
+                            <li class="nav-item">
                                 <a href="elegir.php" class="nav-link">
-                                    
+
                                     Portátiles</a>
                             </li>
                             <li class="nav-item">
                                 <a href="elegir_raton.php" class="nav-link">
-                                   
+
                                     Ratones</a>
                             </li>
                             <li class="nav-item">
                                 <a href="elegir_teclado.php" class="nav-link">
-                                    
+
                                     Teclados</a>
                             </li>
                             <li class="nav-item">
                                 <a href="elegir_cascos.php" class="nav-link">
-                                   
+
                                     Auricurales</a>
                             </li>
 
@@ -224,45 +224,48 @@
             </form>
 
 
+            <div class="container bg-grey p-2 ms-auto principal thumbnail">
 
+                <?php
+                require_once('../../controlers/controlador.php');
+                require_once('../../vistas/Vistas_dinamicas/montarTabla.php');
+                $cLaptop = new ControladorPortatil();
+
+
+                $datos =  $cLaptop->mostrar();
+
+                montarTabla::montar($datos);
+
+
+                ?>
+
+            </div>
 
         </div>
 
-        <div class="container bg-grey p-2 ms-auto principal thumbnail">
 
-            <?php
-            require_once('../../controlers/controlador.php');
-            require_once('../../vistas/Vistas_dinamicas/montarTabla.php');
-            $cLaptop = new ControladorPortatil();
-
-
-            $datos =  $cLaptop->mostrar();
-
-            montarTabla::montar($datos);
-
-
-            ?>
+        <div class="falso">
 
         </div>
         <div class="Divfooter footer has-stiky-footer footer">
-        <footer class="container-fluid pie post-footer">
-            <nav class="navbar navbar-expand-sm  navbar-dark">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="contacto.php" class="nav-link">
+            <footer class="container-fluid pie post-footer">
+                <nav class="navbar navbar-expand-sm  navbar-dark">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="../contacto.php" class="nav-link">
 
-                            Contacto</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="privacidad.php" class="nav-link">
+                                Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../privacidad.php" class="nav-link">
 
-                            Privacidad</a>
-                    </li>
-                </ul>
+                                Privacidad</a>
+                        </li>
+                    </ul>
 
-            </nav>
+                </nav>
 
-        </footer>
+            </footer>
         </div>
 </body>
 
