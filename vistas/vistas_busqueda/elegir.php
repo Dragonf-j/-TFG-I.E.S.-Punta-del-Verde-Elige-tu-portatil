@@ -121,7 +121,7 @@
 
     </header>
 
-    <div>
+    <div class="contenedor">
         <h1 class="titulo">Portátiles</h1>
         <div class="container bg-grey d-flex flex-column justify-content-around ">
             <form action="" method="POST" class="grid">
@@ -244,7 +244,7 @@
             ?>
 
         </div>
-            
+        <div class="Divfooter footer has-stiky-footer footer">
         <footer class="container-fluid pie post-footer">
             <nav class="navbar navbar-expand-sm  navbar-dark">
                 <ul class="navbar-nav">
@@ -263,6 +263,7 @@
             </nav>
 
         </footer>
+        </div>
 </body>
 
 
