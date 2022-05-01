@@ -73,9 +73,9 @@
 <body>
     <header class="container-fluid cabecera">
         <div id="cabecera">
-            <a href="../main.php" class="link-light">
+            
                 <h1 class="granT">Elige tu portátil</h1>
-            </a>
+            
         </div>
         <div id="nav">
             <nav class="navbar navbar-expand-sm  navbar-dark">
