@@ -2,7 +2,12 @@ body{
    
     background-color: rgb(49, 49, 49);
     width: 100%;
-    border: blue 4px dotted;
+    /* border: blue 4px dotted; */
+    min-height: 100vh;
+    /* display: flex;
+    flex-direction: column; */
+    display: grid;
+    grid-template-rows: auto 1fr auto;
 
 }
 
@@ -25,7 +30,7 @@ footer{
     background-color: rgb(34, 34, 34);
     color: rgb(223, 223, 223);
     border-radius: 1.2vh;
-    
+    /* margin-top: auto; */
     
 }
 

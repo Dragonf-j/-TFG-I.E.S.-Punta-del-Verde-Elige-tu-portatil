@@ -244,29 +244,8 @@
         </div>
 
 
-        <div class="falso">
-        
-        </div>
-        <div class="Divfooter footer has-stiky-footer footer">
-            <!-- <footer class="container-fluid pie post-footer">
-                <nav class="navbar navbar-expand-sm  navbar-dark">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a href="../contacto.php" class="nav-link">
-
-                                Contacto</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="../privacidad.php" class="nav-link">
-
-                                Privacidad</a>
-                        </li>
-                    </ul>
-
-                </nav>
-
-            </footer> -->
-        </div>
+  
+  
 </body>
 <footer class="container-fluid pie post-footer">
                 <nav class="navbar navbar-expand-sm  navbar-dark">

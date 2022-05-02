@@ -210,16 +210,15 @@
 
             </div>
 
-            <div class="falso">
-
-            </div>
+          
 
 
         </div>
 
 
-        <div class="Divfooter footer has-stiky-footer footer">
-            <footer class="container-fluid pie post-footer">
+       
+</body>
+<footer class="container-fluid pie post-footer">
                 <nav class="navbar navbar-expand-sm  navbar-dark">
                     <ul class="navbar-nav">
                         <li class="nav-item">
@@ -237,8 +236,5 @@
                 </nav>
 
             </footer>
-        </div>
-</body>
-
 
 </html>
