@@ -4,10 +4,10 @@ body{
     width: 100%;
     /* border: blue 4px dotted; */
     min-height: 100vh;
-    /* display: flex;
-    flex-direction: column; */
-    display: grid;
-    grid-template-rows: auto 1fr auto;
+    display: flex;
+    flex-direction: column;
+    /* display: grid;
+    grid-template-rows: auto 1fr auto; */
 
 }
 

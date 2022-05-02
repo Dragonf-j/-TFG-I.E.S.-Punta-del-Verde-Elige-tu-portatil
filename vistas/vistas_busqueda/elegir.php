@@ -120,150 +120,149 @@
         </div> -->
 
     </header>
+    <main>
+        <div class="contenedor">
+            <h1 class="titulo">Portátiles</h1>
+            <div class="container bg-grey d-flex flex-column justify-content-around ">
+                <form action="" method="POST" class="grid">
+                    <div class="form-check" id="tipo">
+                        <label for="Tipo">
+                            <h4>Tipos</h4>
+                        </label><br>
+                        <label for="gaming" data-bs-toggle="tooltip" data-bs-placement="right" title="Tooltip on right">Gaming
+                        </label>
+                        <input type="radio" class="form-check-input" class="tipo" name="tipo" value="gaming">
+                        <br>
+                        <label for="basico" data-bs-toggle="tooltip" data-bs-placement="top" title="Prueba 2">Básico</label>
+                        <input type="radio" class="form-check-input" class="tipo" name="tipo" value="basico">
+                        <br>
+                        <label for="workstation">Workstation</label>
+                        <input type="radio" class="form-check-input" class="tipo" name="tipo" value="workstation">
+                        <br>
+                        <label for="Convertible">2 en 1</label>
+                        <input type="radio" class="form-check-input" class="tipo" name="tipo" value="Convertible">
 
-    <div class="contenedor">
-        <h1 class="titulo">Portátiles</h1>
-        <div class="container bg-grey d-flex flex-column justify-content-around ">
-            <form action="" method="POST" class="grid">
-                <div class="form-check" id="tipo">
-                    <label for="Tipo">
-                        <h4>Tipos</h4>
-                    </label><br>
-                    <label for="gaming" data-bs-toggle="tooltip" data-bs-placement="right" title="Tooltip on right">Gaming
-                    </label>
-                    <input type="radio" class="form-check-input" class="tipo" name="tipo" value="gaming">
-                    <br>
-                    <label for="basico" data-bs-toggle="tooltip" data-bs-placement="top" title="Prueba 2">Básico</label>
-                    <input type="radio" class="form-check-input" class="tipo" name="tipo" value="basico">
-                    <br>
-                    <label for="workstation">Workstation</label>
-                    <input type="radio" class="form-check-input" class="tipo" name="tipo" value="workstation">
-                    <br>
-                    <label for="Convertible">2 en 1</label>
-                    <input type="radio" class="form-check-input" class="tipo" name="tipo" value="Convertible">
-
-                </div>
+                    </div>
 
 
 
-                <div class="form-check " id="almacenamiento">
-                    <label for="Almacenamiento">
-                        <h4>Almacenamiento</h4>
-                    </label><br>
-                    <label for="menos">250 GB</label>
-                    <input type="radio" class="form-check-input" name="almacenamiento" value="250GB">
-                    <br>
-                    <label for="medio">500 GB</label>
-                    <input type="radio" class="form-check-input" name="almacenamiento" value="500GB">
-                    <br>
-                    <label for="max">1 TB</label>
-                    <input type="radio" class="form-check-input" name="almacenamiento" value="1TB">
-                    <br>
-                    <!-- <label for="max-extend">+1 TB</label>
+                    <div class="form-check " id="almacenamiento">
+                        <label for="Almacenamiento">
+                            <h4>Almacenamiento</h4>
+                        </label><br>
+                        <label for="menos">250 GB</label>
+                        <input type="radio" class="form-check-input" name="almacenamiento" value="250GB">
+                        <br>
+                        <label for="medio">500 GB</label>
+                        <input type="radio" class="form-check-input" name="almacenamiento" value="500GB">
+                        <br>
+                        <label for="max">1 TB</label>
+                        <input type="radio" class="form-check-input" name="almacenamiento" value="1TB">
+                        <br>
+                        <!-- <label for="max-extend">+1 TB</label>
                     <input type="radio" class="form-check-input" name="almacenamiento" value="+1TB"> -->
+                    </div>
+
+                    <div class="form-check thumbnail" id="ram">
+                        <label for="ram">
+                            <h4>RAM</h4>
+
+
+                        </label><br>
+                        <label for="8">8</label>
+                        <input type="radio" class="form-check-input" name="memoria" value="8">
+
+                        <br>
+                        <label for="16">16</label>
+                        <input type="radio" class="form-check-input" name="memoria" value="16">
+                        <br>
+                        <label for="32">32</label>
+                        <input type="radio" class="form-check-input" name="memoria" value="32">
+                    </div>
+
+                    <div class="form-check " id="Precio">
+                        <label for="precio">
+                            <h4>Presupuesto</h4>
+
+                        </label><br>
+                        <label for="bajo">Bajo</label>
+                        <input type="radio" class="form-check-input" name="precio" value="bajo">
+                        <br>
+                        <label for="moderado">Moderado</label>
+                        <input type="radio" class="form-check-input" name="precio" value="moderado">
+                        <br>
+                        <label for="elevado">Elevado</label>
+                        <input type="radio" class="form-check-input" class="form-check-input" name="precio" value="elevado">
+                        <br>
+
+                    </div>
+                    <div class="form-check " id="Pulgadas">
+                        <label for="Pulgadas">
+                            <h4 class=" thumbnail">Pulgadas</h4>
+
+                        </label><br>
+
+                        <label for="pequeño">Pequeño</label>
+                        <input type="radio" class="form-check-input" name="Pulgadas" value="pequeño">
+                        <br>
+                        <label for="medio">Medio</label>
+                        <input type="radio" class="form-check-input" name="Pulgadas" value="medio">
+                        <br>
+                        <label for="grande">Grande</label>
+                        <input type="radio" class="form-check-input" class="form-check-input" name="Pulgadas" value="grande">
+                        <br>
+
+                    </div>
+
+
+
+
+
+                    <input class="boton" type="submit" value="Buscar" name="mostrar">
+
+
+                </form>
+
+
+                <div class="container bg-grey p-2 ms-auto principal thumbnail">
+
+                    <?php
+                    require_once('../../controlers/controlador.php');
+                    require_once('../../vistas/Vistas_dinamicas/montarTabla.php');
+                    $cLaptop = new ControladorPortatil();
+
+
+                    $datos =  $cLaptop->mostrar();
+
+                    montarTabla::montar($datos);
+
+
+                    ?>
+
                 </div>
-
-                <div class="form-check thumbnail" id="ram">
-                    <label for="ram">
-                        <h4>RAM</h4>
-
-
-                    </label><br>
-                    <label for="8">8</label>
-                    <input type="radio" class="form-check-input" name="memoria" value="8">
-
-                    <br>
-                    <label for="16">16</label>
-                    <input type="radio" class="form-check-input" name="memoria" value="16">
-                    <br>
-                    <label for="32">32</label>
-                    <input type="radio" class="form-check-input" name="memoria" value="32">
-                </div>
-
-                <div class="form-check " id="Precio">
-                    <label for="precio">
-                        <h4>Presupuesto</h4>
-
-                    </label><br>
-                    <label for="bajo">Bajo</label>
-                    <input type="radio" class="form-check-input" name="precio" value="bajo">
-                    <br>
-                    <label for="moderado">Moderado</label>
-                    <input type="radio" class="form-check-input" name="precio" value="moderado">
-                    <br>
-                    <label for="elevado">Elevado</label>
-                    <input type="radio" class="form-check-input" class="form-check-input" name="precio" value="elevado">
-                    <br>
-
-                </div>
-                <div class="form-check " id="Pulgadas">
-                    <label for="Pulgadas">
-                        <h4 class=" thumbnail">Pulgadas</h4>
-
-                    </label><br>
-
-                    <label for="pequeño">Pequeño</label>
-                    <input type="radio" class="form-check-input" name="Pulgadas" value="pequeño">
-                    <br>
-                    <label for="medio">Medio</label>
-                    <input type="radio" class="form-check-input" name="Pulgadas" value="medio">
-                    <br>
-                    <label for="grande">Grande</label>
-                    <input type="radio" class="form-check-input" class="form-check-input" name="Pulgadas" value="grande">
-                    <br>
-
-                </div>
-
-
-
-
-
-                <input class="boton" type="submit" value="Buscar" name="mostrar">
-
-
-            </form>
-
-
-            <div class="container bg-grey p-2 ms-auto principal thumbnail">
-
-                <?php
-                require_once('../../controlers/controlador.php');
-                require_once('../../vistas/Vistas_dinamicas/montarTabla.php');
-                $cLaptop = new ControladorPortatil();
-
-
-                $datos =  $cLaptop->mostrar();
-
-                montarTabla::montar($datos);
-
-
-                ?>
 
             </div>
 
-        </div>
+    </main>
+    <footer class="container-fluid pie post-footer">
+    <nav class="navbar navbar-expand-sm  navbar-dark">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="../contacto.php" class="nav-link">
 
+                    Contacto</a>
+            </li>
+            <li class="nav-item">
+                <a href="../privacidad.php" class="nav-link">
 
-  
-  
+                    Privacidad</a>
+            </li>
+        </ul>
+
+    </nav>
+
+</footer>
 </body>
-<footer class="container-fluid pie post-footer">
-                <nav class="navbar navbar-expand-sm  navbar-dark">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a href="../contacto.php" class="nav-link">
 
-                                Contacto</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="../privacidad.php" class="nav-link">
-
-                                Privacidad</a>
-                        </li>
-                    </ul>
-
-                </nav>
-
-            </footer>
 
 </html>
