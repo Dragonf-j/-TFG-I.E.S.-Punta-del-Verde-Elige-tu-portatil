@@ -27,8 +27,9 @@
 
     display: block;
   }
-  .Divfooter{
-   
-    display: block;
-    position: sticky;
-  }
+
+footer{
+  
+        margin-top: auto;
+    
+}

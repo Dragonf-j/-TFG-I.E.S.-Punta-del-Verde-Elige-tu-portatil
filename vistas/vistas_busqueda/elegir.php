@@ -14,6 +14,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
     <link href="../../estilos/estilos.css" rel="stylesheet">
     <link rel="stylesheet" href="../../estilos/estilos_elegir.css">
+    <link rel="stylesheet" href="../../estilos/estilos_main.css">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CNRJ888MW6"></script>
     <script type="text/javascript">
         var _iub = _iub || [];
@@ -235,9 +236,10 @@
                     $datos =  $cLaptop->mostrar();
 
                     montarTabla::montar($datos);
-
+                  
 
                     ?>
+
 
                 </div>
 

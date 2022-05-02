@@ -14,6 +14,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
     <link href="../../estilos/estilos.css" rel="stylesheet">
     <link rel="stylesheet" href="../../estilos/estilos_elegir.css">
+    <link rel="stylesheet" href="../../estilos/estilos_main.css">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CNRJ888MW6"></script>
     <script type="text/javascript">
         var _iub = _iub || [];
@@ -119,7 +120,7 @@
         </div>
 
     </header>
-
+    <main>
     <div>
     <h1 class="titulo">Ratones</h1>
         <div class="container bg-grey d-flex flex-column justify-content-around ">
@@ -238,12 +239,9 @@
 
 
         </div>
-
+        </main>
        
-    
-
-</body>
-<footer class="container-fluid pie post-footer">
+        <footer class="container-fluid pie post-footer">
                 <nav class="navbar navbar-expand-sm  navbar-dark">
                     <ul class="navbar-nav">
                         <li class="nav-item">
@@ -261,5 +259,8 @@
                 </nav>
 
             </footer>
+
+</body>
+
 
 </html>
