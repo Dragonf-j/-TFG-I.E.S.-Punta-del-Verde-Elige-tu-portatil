@@ -263,6 +263,8 @@
 
     </nav>
 
+    <h6 class="copy">&copy; Todos los derechos reservados - Dragonf-j - 2022</h6>
+
 </footer>
 </body>
 

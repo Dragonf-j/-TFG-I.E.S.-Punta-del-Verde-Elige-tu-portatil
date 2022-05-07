@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="../estilos/estilos.css">
     <link rel="stylesheet" href="../estilos/estilos_mail.css">
     <link rel="stylesheet" href="../estilos/estilos_main.css">
+    <link rel="stylesheet" href="../estilos/estilos_elegir.css">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CNRJ888MW6"></script>
     <script type="text/javascript">
         var _iub = _iub || [];
@@ -75,7 +76,7 @@
 </style>
 
 <body>
-<header class="container-fluid cabecera">
+    <header class="container-fluid cabecera">
         <div id="cabecera">
             <h1>Elige tu portátil</h1>
             <!-- <h4 id="beta">Beta</h4> -->
@@ -123,6 +124,7 @@
         </div>
 
     </header>
+    <main>
     <div class="container contenedor bg-grey d-flex flex-column justify-content-around ">
         <h2>Contacto</h2>
         <form action="" method="post">
@@ -158,32 +160,28 @@
         }
         ?>
     </div>
-    <div class="falso">
+ 
+    </main>
+  
 
-        </div>
+    <footer class="container-fluid pie post-footer">
+        <nav class="navbar navbar-expand-sm  navbar-dark">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="../contacto.php" class="nav-link">
 
-    <div class="Divfooter footer has-stiky-footer footer">
-            <footer class="container-fluid pie post-footer">
-                <nav class="navbar navbar-expand-sm  navbar-dark">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
+                        Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a href="privacidad.php" class="nav-link">
 
-                                Contacto</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="privacidad.php" class="nav-link">
+                        Privacidad</a>
+                </li>
+            </ul>
 
-                                Privacidad</a>
-                        </li>
-                    </ul>
-
-                </nav>
-
-            </footer>
-        </div>
-
-
+        </nav>
+        <h6 class="copy">&copy; Todos los derechos reservados - Dragonf-j - 2022</h6>
+    </footer>
 </body>
 
 

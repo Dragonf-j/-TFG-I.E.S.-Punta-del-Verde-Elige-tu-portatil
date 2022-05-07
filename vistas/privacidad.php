@@ -117,6 +117,7 @@
         </div>
 
     </header>
+    <main>
     <div class="container bg-grey d-flex contenedor flex-column justify-content-around ">
         <h2>Privacidad</h2>
         <a href="https://www.iubenda.com/privacy-policy/18091383" class="iubenda-white no-brand iubenda-noiframe iubenda-embed iubenda-noiframe " title="Política de Privacidad ">Política de Privacidad</a>
@@ -138,30 +139,25 @@
             })(window, document);
         </script>
     </div>
-    <div class="falso">
+        </main>
+    <footer class="container-fluid pie post-footer">
+        <nav class="navbar navbar-expand-sm  navbar-dark">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="contacto.php" class="nav-link">
 
-    </div>
+                        Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../privacidad.php" class="nav-link">
 
-    <div class="Divfooter footer has-stiky-footer footer">
-        <footer class="container-fluid pie post-footer">
-            <nav class="navbar navbar-expand-sm  navbar-dark">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="contacto.php" class="nav-link">
+                        Privacidad</a>
+                </li>
+            </ul>
 
-                            Contacto</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">
-
-                            Privacidad</a>
-                    </li>
-                </ul>
-
-            </nav>
-
-        </footer>
-    </div>
+        </nav>
+        <h6 class="copy">&copy; Todos los derechos reservados - Dragonf-j - 2022</h6>
+    </footer>
 </body>
 
 </html>
