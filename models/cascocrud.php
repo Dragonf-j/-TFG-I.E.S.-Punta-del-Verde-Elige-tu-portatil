@@ -33,6 +33,25 @@ class cascocrud{
         }
     }
 
+    public function getcascos( $presupuesto, $bluetooht, $inalambrico, $cable, $diadema, $microfono){
+
+        try{
+            $sentencia = "SELECT * FROM cascos WHERE (presupuesto  ='$presupuesto') and (bluetooth = '$bluetooht') and (inalambrico= '$inalambrico'), (cable = '$cable'), (diadema='$diadema'), (microfono = '$microfono')";
+            $this->consulta = $this->conexion->prepare($sentencia);
+            //  echo 'Consulta realizada';
+            // echo '<br>';
+            $this->consulta->execute();
+            $this->ratones = $this->consulta->fetchAll(PDO::FETCH_ASSOC);
+            echo "<br>";
+            
+            // echo "aqui llega";
+            return $this->ratones;
+        }catch(PDOException $e){
+            echo $e->getMessage();
+        }
+
+    }
+
 
 }
 ?>

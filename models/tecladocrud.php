@@ -32,6 +32,24 @@ class tecladocrud{
             return $exp->getMessage();
         }
     }
+    public function getTeclados( $presupuesto, $bluetooht, $inalambrico, $cable, $rgb, $formato, $tipo){
+
+        try{
+            $sentencia = "SELECT * FROM ratones WHERE (presupuesto  ='$presupuesto') and (bluetooth = '$bluetooht') and (inalambrico= '$inalambrico'), (cable = '$cable'), (rgb='$rgb'), (formato='$formato'), (tipo='$tipo')";
+            $this->consulta = $this->conexion->prepare($sentencia);
+            //  echo 'Consulta realizada';
+            // echo '<br>';
+            $this->consulta->execute();
+            $this->ratones = $this->consulta->fetchAll(PDO::FETCH_ASSOC);
+            echo "<br>";
+            
+            // echo "aqui llega";
+            return $this->ratones;
+        }catch(PDOException $e){
+            echo $e->getMessage();
+        }
+
+    }
 
 
 }
