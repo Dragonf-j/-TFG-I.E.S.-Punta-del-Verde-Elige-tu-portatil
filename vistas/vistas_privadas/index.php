@@ -1,5 +1,4 @@
-<?php
-session_start(); ?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -102,7 +101,7 @@ session_start(); ?>
         require_once('models/model_laptop_user/userLapCrud.php');
         $usuario = $_SESSION['usuario'];
         echo '<h4>Usuario '.$usuario.'</h4>';
-        $ulc = new userLapCrud();
+//         $ulc = new userLapCrud();
         $datos = $ulc->mostrar($usuario);
         require_once('vistas/Vistas_dinamicas/montarTabla.php');
         // var_dump($datos);

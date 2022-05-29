@@ -15,7 +15,6 @@ require_once('../../vistas/Vistas_dinamicas/montarTabla.php');
      public function __construct()
      {
         require_once('../../models/portatilesCurd.php');
-      // require_once($_SERVER['DOCUMENT_ROOT'].'/Dragonf/proyecto/models/portatilesCurd.php');
         $this->laptop = new PortatilCrud();
      }
 

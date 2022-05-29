@@ -131,7 +131,7 @@
                     <input type="radio" class="form-check-input" class="tipo" name="tipo" value="mecanico">
                     <br>
                     <label for="Membrana" data-bs-toggle="tooltip" data-bs-placement="top" title="Prueba 2">Membrana</label>
-                    <input type="radio" class="form-check-input" class="tipo" name="tipo" value="Membrana">
+                    <input type="radio" class="form-check-input" class="tipo" name="tipo" value="membrana">
 
                 </div>
 
@@ -160,11 +160,11 @@
 
                     </label><br>
                     <label for="si">Si</label>
-                    <input type="radio" class="form-check-input" name="rgb" value="S">
+                    <input type="radio" class="form-check-input" name="rgb" value="s">
 
                     <br>
                     <label for="no">No</label>
-                    <input type="radio" class="form-check-input" name="rgb" value="N">
+                    <input type="radio" class="form-check-input" name="rgb" value="n">
                     <br>
                 </div>
 
@@ -175,11 +175,11 @@
                    
                     </label><br>
                     <label for="si">Si</label>
-                    <input type="radio" class="form-check-input" name="cable" value="S">
+                    <input type="radio" class="form-check-input" name="cable" value="s">
 
                     <br>
                     <label for="no">No</label>
-                    <input type="radio" class="form-check-input" name="cable" value="N">
+                    <input type="radio" class="form-check-input" name="cable" value="n">
                     <br>
                     <br>
                    
@@ -193,11 +193,11 @@
                    
                     </label><br>
                     <label for="si">Si</label>
-                    <input type="radio" class="form-check-input" name="Bluetooh" value="S">
+                    <input type="radio" class="form-check-input" name="Bluetooh" value="s">
 
                     <br>
                     <label for="no">No</label>
-                    <input type="radio" class="form-check-input" name="Bluetooh" value="N">
+                    <input type="radio" class="form-check-input" name="Bluetooh" value="n">
                     <br>
                     <br>
                    
@@ -210,12 +210,12 @@
                     </label><br>
                    
                     </label><br>
-                    <label for="si">Si</label>
+                    <label for="s">Si</label>
                     <input type="radio" class="form-check-input" name="inalambrico" value="S">
 
                     <br>
-                    <label for="no">No</label>
-                    <input type="radio" class="form-check-input" name="inalambrico" value="N">
+                    <label for="n">No</label>
+                    <input type="radio" class="form-check-input" name="inalambrico" value="n">
                     <br>
                     <br>
                    
@@ -254,7 +254,7 @@
                 $cKeyboard = new controladorKeyBoard();
 
                 $datos =  $cKeyboard->mostrar();
-
+                // var_dump($datos);
                 montarTabla::montar($datos);
 
 
