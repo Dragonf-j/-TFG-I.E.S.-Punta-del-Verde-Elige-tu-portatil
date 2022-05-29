@@ -102,7 +102,7 @@
                             <li class="nav-item">
                                 <a href="elegir_cascos.php" class="nav-link">
 
-                                    Auricurales</a>
+                                    Cascos</a>
                             </li>
 
 

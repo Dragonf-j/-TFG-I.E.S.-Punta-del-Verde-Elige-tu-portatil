@@ -107,7 +107,7 @@
                             <li class="nav-item">
                                 <a href="vistas_busqueda/elegir_cascos.php" class="nav-link">
                                    
-                                    Auricurales</a>
+                                    cascos</a>
                             </li>
 
 

@@ -103,7 +103,7 @@
                             <li class="nav-item">
                                 <a href="elegir_cascos.php" class="nav-link">
 
-                                    Auricurales</a>
+                                    Cascos</a>
                             </li>
 
 
@@ -119,64 +119,80 @@
     </header>
 <main>
     <div>
-        <h1 class="titulo">Auriculares</h1>
+        <h1 class="titulo">Cascos</h1>
         <div class="container bg-grey d-flex flex-column justify-content-around ">
             <form action="" method="POST" class="grid">
-                <div class="form-check" id="tipo">
-                    <label for="Tipo">
-                        <h4>Tipos</h4>
+            <div class="form-check" id="cable">
+                    <label for="cable">
+                        <h4>Cable</h4>
                     </label><br>
-                    <label for="gaming" data-bs-toggle="tooltip" data-bs-placement="right" title="Tooltip on right">Gaming
-                    </label>
-                    <input type="radio" class="form-check-input" class="tipo" name="tipo" value="gaming">
+                   
+                    </label><br>
+                    <label for="si">Si</label>
+                    <input type="radio" class="form-check-input" name="cable" value="S">
+
                     <br>
-                    <label for="basico" data-bs-toggle="tooltip" data-bs-placement="top" title="Prueba 2">Básico</label>
-                    <input type="radio" class="form-check-input" class="tipo" name="tipo" value="basico">
+                    <label for="no">No</label>
+                    <input type="radio" class="form-check-input" name="cable" value="N">
                     <br>
-                    <label for="workstation">Workstation</label>
-                    <input type="radio" class="form-check-input" class="tipo" name="tipo" value="workstation">
                     <br>
-                    <label for="Convertible">2 en 1</label>
-                    <input type="radio" class="form-check-input" class="tipo" name="tipo" value="Convertible">
+                   
 
                 </div>
 
-
-
-                <div class="form-check " id="almacenamiento">
-                    <label for="Almacenamiento">
-                        <h4>Almacenamiento</h4>
+                <div class="form-check" id="bluetooth">
+                    <label for="Bluetooh">
+                        <h4>Bluetooth</h4>
                     </label><br>
-                    <label for="menos">250 GB</label>
-                    <input type="radio" class="form-check-input" name="almacenamiento" value="250GB">
+                   
+                    </label><br>
+                    <label for="si">Si</label>
+                    <input type="radio" class="form-check-input" name="Bluetooh" value="S">
+
                     <br>
-                    <label for="medio">500 GB</label>
-                    <input type="radio" class="form-check-input" name="almacenamiento" value="500GB">
+                    <label for="no">No</label>
+                    <input type="radio" class="form-check-input" name="Bluetooh" value="N">
                     <br>
-                    <label for="max">1 TB</label>
-                    <input type="radio" class="form-check-input" name="almacenamiento" value="1TB">
                     <br>
-                    <!-- <label for="max-extend">+1 TB</label>
-                    <input type="radio" class="form-check-input" name="almacenamiento" value="+1TB"> -->
+                   
+
                 </div>
 
-                <div class="form-check thumbnail" id="ram">
-                    <label for="ram">
-                        <h4>RAM</h4>
-
-
+                <div class="form-check" id="inalambrico">
+                    <label for="inalambrico">
+                        <h4>Inalámbrico</h4>
                     </label><br>
-                    <label for="8">8</label>
-                    <input type="radio" class="form-check-input" name="memoria" value="8">
+                   
+                    </label><br>
+                    <label for="si">Si</label>
+                    <input type="radio" class="form-check-input" name="inalambrico" value="S">
 
                     <br>
-                    <label for="16">16</label>
-                    <input type="radio" class="form-check-input" name="memoria" value="16">
+                    <label for="no">No</label>
+                    <input type="radio" class="form-check-input" name="inalambrico" value="N">
                     <br>
-                    <label for="32">32</label>
-                    <input type="radio" class="form-check-input" name="memoria" value="32">
+                    <br>
+                   
+
                 </div>
 
+                <div class="form-check" id="diadema">
+                    <label for="diadema">
+                        <h4>Diadema</h4>
+                    </label><br>
+                   
+                    </label><br>
+                    <label for="si">Si</label>
+                    <input type="radio" class="form-check-input" name="diadema" value="S">
+
+                    <br>
+                    <label for="no">No</label>
+                    <input type="radio" class="form-check-input" name="diadema" value="N">
+                    <br>
+                    <br>
+                   
+
+                </div>
                 <div class="form-check " id="Precio">
                     <label for="precio">
                         <h4>Presupuesto</h4>
@@ -193,25 +209,24 @@
                     <br>
 
                 </div>
-                <div class="form-check " id="Pulgadas">
-                    <label for="Pulgadas">
-                        <h4 class=" thumbnail">Pulgadas</h4>
-
+                <div class="form-check" id="micro">
+                    <label for="micro">
+                        <h4>Microfono</h4>
                     </label><br>
+                   
+                    </label><br>
+                    <label for="si">Si</label>
+                    <input type="radio" class="form-check-input" name="micro" value="S">
 
-                    <label for="pequeño">Pequeño</label>
-                    <input type="radio" class="form-check-input" name="Pulgadas" value="pequeño">
                     <br>
-                    <label for="medio">Medio</label>
-                    <input type="radio" class="form-check-input" name="Pulgadas" value="medio">
+                    <label for="no">No</label>
+                    <input type="radio" class="form-check-input" name="micro" value="N">
                     <br>
-                    <label for="grande">Grande</label>
-                    <input type="radio" class="form-check-input" class="form-check-input" name="Pulgadas" value="grande">
                     <br>
+                   
 
-                </div>
-
-
+                
+              
 
 
 

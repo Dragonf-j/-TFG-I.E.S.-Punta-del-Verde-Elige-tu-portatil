@@ -41,7 +41,7 @@ class cascocrud{
             //  echo 'Consulta realizada';
             // echo '<br>';
             $this->consulta->execute();
-            $this->ratones = $this->consulta->fetchAll(PDO::FETCH_ASSOC);
+            $this->cascos = $this->consulta->fetchAll(PDO::FETCH_ASSOC);
             echo "<br>";
             
             // echo "aqui llega";

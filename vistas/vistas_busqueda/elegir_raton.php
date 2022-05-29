@@ -103,7 +103,7 @@
                             <li class="nav-item">
                                 <a href="elegir_cascos.php" class="nav-link">
                                    
-                                    Auricurales</a>
+                                    Cascos</a>
                             </li>
 
 
@@ -122,19 +122,55 @@
     <h1 class="titulo">Ratones</h1>
         <div class="container bg-grey d-flex flex-column justify-content-around ">
             <form action="" method="POST" class="grid">
-                <div class="form-check" id="tipo">
-                    <label for="conec">
-                        <h4>Conexion</h4>
+                <div class="form-check" id="cable">
+                    <label for="cable">
+                        <h4>Cable</h4>
                     </label><br>
-                    <label for="bluetooth" data-bs-toggle="tooltip" data-bs-placement="right" title="Tooltip on right">Bluetooth
-                    </label>
-                    <input type="radio" class="form-check-input" class="conec" name="conec" value="bluetooth">
+                   
+                    </label><br>
+                    <label for="si">Si</label>
+                    <input type="radio" class="form-check-input" name="cable" value="S">
+
                     <br>
-                    <label for="inalambrico" data-bs-toggle="tooltip" data-bs-placement="conec" title="Prueba 2">Inalambrico</label>
-                    <input type="radio" class="form-check-input" class="conec" name="conec" value="inalambrico">
+                    <label for="no">No</label>
+                    <input type="radio" class="form-check-input" name="cable" value="N">
                     <br>
-                    <label for="Cable">Cable</label>
-                    <input type="radio" class="form-check-input" class="conec" name="conec" value="cable">
+                    <br>
+                   
+
+                </div>
+
+                <div class="form-check" id="bluetooth">
+                    <label for="Bluetooh">
+                        <h4>Bluetooth</h4>
+                    </label><br>
+                   
+                    </label><br>
+                    <label for="si">Si</label>
+                    <input type="radio" class="form-check-input" name="Bluetooh" value="S">
+
+                    <br>
+                    <label for="no">No</label>
+                    <input type="radio" class="form-check-input" name="Bluetooh" value="N">
+                    <br>
+                    <br>
+                   
+
+                </div>
+
+                <div class="form-check" id="inalambrico">
+                    <label for="inalambrico">
+                        <h4>Inalámbrico</h4>
+                    </label><br>
+                   
+                    </label><br>
+                    <label for="si">Si</label>
+                    <input type="radio" class="form-check-input" name="inalambrico" value="S">
+
+                    <br>
+                    <label for="no">No</label>
+                    <input type="radio" class="form-check-input" name="inalambrico" value="N">
+                    <br>
                     <br>
                    
 
@@ -142,37 +178,22 @@
 
 
 
-                <div class="form-check thumbnail" id="ram">
+                <div class="form-check thumbnail" id="RGB">
                     <label for="rgb">
                         <h4>RGB</h4>
 
 
                     </label><br>
                     <label for="si">Si</label>
-                    <input type="radio" class="form-check-input" name="memoria" value="8">
+                    <input type="radio" class="form-check-input" name="rgb" value="S">
 
                     <br>
                     <label for="no">No</label>
-                    <input type="radio" class="form-check-input" name="memoria" value="16">
+                    <input type="radio" class="form-check-input" name="rgb" value="N">
                     <br>
                 </div>
 
-                <div class="form-check thumbnail" id="ram">
-                    <label for="ram">
-                        <h4>RAM</h4>
-
-
-                    </label><br>
-                    <label for="8">8</label>
-                    <input type="radio" class="form-check-input" name="memoria" value="8">
-
-                    <br>
-                    <label for="16">16</label>
-                    <input type="radio" class="form-check-input" name="memoria" value="16">
-                    <br>
-                    <label for="32">32</label>
-                    <input type="radio" class="form-check-input" name="memoria" value="32">
-                </div>
+               
 
                 <div class="form-check " id="Precio">
                     <label for="precio">
@@ -190,23 +211,8 @@
                     <br>
 
                 </div>
-                <div class="form-check " id="Pulgadas">
-                    <label for="Pulgadas">
-                        <h4 class=" thumbnail">Pulgadas</h4>
+               
 
-                    </label><br>
-
-                    <label for="pequeño">Pequeño</label>
-                    <input type="radio" class="form-check-input" name="Pulgadas" value="pequeño">
-                    <br>
-                    <label for="medio">Medio</label>
-                    <input type="radio" class="form-check-input" name="Pulgadas" value="medio">
-                    <br>
-                    <label for="grande">Grande</label>
-                    <input type="radio" class="form-check-input" class="form-check-input" name="Pulgadas" value="grande">
-                    <br>
-
-                </div>
 
 
 
