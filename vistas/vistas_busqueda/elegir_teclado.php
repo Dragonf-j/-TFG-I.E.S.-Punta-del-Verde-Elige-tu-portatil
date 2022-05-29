@@ -253,9 +253,9 @@
                 require_once('../../vistas/Vistas_dinamicas/montarTabla.php');
                 $cKeyboard = new controladorKeyBoard();
 
-                // $datos =  $cLaptop->mostrar();
+                $datos =  $cKeyboard->mostrar();
 
-                // montarTabla::montar($datos);
+                montarTabla::montar($datos);
 
 
                 ?>

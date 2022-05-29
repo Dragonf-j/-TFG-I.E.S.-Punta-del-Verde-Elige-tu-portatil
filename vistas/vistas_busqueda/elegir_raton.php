@@ -231,9 +231,9 @@
             $cMouse = new controladorMouse();
 
 
-            // $datos =  $cLaptop->mostrar();
+            $datos =  $cMouse->mostrar();
 
-            // montarTabla::montar($datos);
+            montarTabla::montar($datos);
 
 
             ?>
