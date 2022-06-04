@@ -232,36 +232,139 @@
                     $datos =  $cLaptop->mostrar();
 
                     montarTabla::montar($datos);
-                  
+
 
                     ?>
 
 
                 </div>
 
-            </div>
+                <div>
+                <h3 class="title">Tipos</h3>
+                <br>
+                    <div id="gaming" class="mb-1 contenedores">
+
+                               
+                        <h4> Gaming</h4>
+
+                        <p>
+                            Un <span> portátil gaming </span> es un tipo de portátil destinado de forma casi exclusiva para jugar a videojuegos. Este tipo de portátiles
+                            posee un hardware específico para juegos. Como una tarjeta grafica que sea capaz de sacar una gran cantidad de FPS (fotogramas por segundo),
+                            o una pantalla con elevados Hercios para que muestre los FPS generados.
+                            <br>
+
+                            <br>
+
+                            Este tipo de portátiles podemos encontrar diferentes configuraciones, podemos escoger un equipo con un presupuesto reducido
+                            que dispondrá de una configuración de hardware menor pero con el que podremos jugar a juegos menos exigentes o juegos competitivos
+                            que consumen pocos recursos como por ejemplo:
+                            <br>
+
+                            <br>
+                        <ul>
+                            <li>LOL (League of legend)</li>
+                            <li>Valorant</li>
+                            <li>Fortnite</li>
+                            <li>Counter Strike Global Offensive</li>
+                        </ul>
+                        <br>
+
+                    
+                        El principal inconveniente que tienen los portátiles destinados a juegos es su peso. Estos suelen pesar entre los 2 kg hasta los 3 kg, esto es debido a que la gráfica y el procesador durante las partidas pueden alcanzar altas temperaturas, para poder
+                        refrigerar estos componentes tienen un sistema de refrigeración de gran grosor que hace que aumente el peso.
+                        </p>
+                        <br>
+                       
+                    </div>
+
+                    
+                    <div class="mb-1">
+
+                        <h4 id="básico">Normales</h4>
+
+                        <p>
+                            Este tipo de equipos se caracteriza por tener un hardware de muy variado junto con los precios. Esta categoria contiene el mayor numero de equipos. Algunos portatiles están destinados al trabajo exigente. Este tipo de equipos suele tener un hardware con buen rendimiento. A diferencia de los portátiles gaming que suelen tener un peso elevado estos portátiles tienden a ser
+                    livianos ya que la mayoría de estos portátiles no necesitan una gran refrigeración. La mayoría de estos portátiles suelen estar enfocados a usuarios que requieren de potencia para su trabajo y que por su peso tenga una gran movilidad. Tambien podemos ecnotrar estos dispositivos con un hardware menos potente dedicado a tareas mas livianas y cotidianas que realizamos dia a dia.
+
+                            <br>
+
+                            <br>
+                   
+
+                     
+                      
+                    </div>
+                    <div class="mb-1">
+
+                        <h4 id="convertible">2 en 1</h4>
+
+                        <p>
+                            Los portátiles 2 en 1 o convertibles son aquellos que tienen lo mejor del mundo de las tablet y de los portátiles.
+                            <br>
+
+                            <br>
+                        <ul>
+                            <li>Pantalla táctil</li>
+                            <li>Hardware competente</li>
+                        </ul>
+                        <br>
+
+                        <br>
+                        Estos equipos pueden ser usados para realizar las tareas más simples como navegar por internet o realizar tareas que requieren de algo más de potencia para hacer diseños gráficos. Muchos de estos portátiles pueden acoplarse a un teclado o usarse como tableta, también hay modelos
+                        que su pantalla 360 grados. Suelen tener un lápiz táctil para la pantalla, este complemento en la mayoría de casos se compra a parte del portátil. Estos son ideales para personas que realicen actividades como dibujo y que viajen mucho ya que por norma geenral suelen ser el tipo 
+                        de portátil mas livano
+
+
+                        </p>
+                        <br>
+
+                    </div>
+
+                </div>
+
+                <div>
+                    <h3 class="title">Presupuesto</h3>
+                    <br>
+                    <div>
+                        <h4>Presupuesto Bajo</h4>      <br>
+                        <p>Los portátiles con un presupuesto bajo son aquellos que oscilan entre los 300 € y los 599 €  como máximo, son aquellos que por norma general suelen tener un hardware más limitado. </p>
+                        <br>
+                    </div>
+                    <div>
+                        <h4>Presupuesto Moderado</h4>      <br>
+                        <p>Los portátiles con un presupuesto moderado son aquellos que se encuentran entre un rango de precio de  600 €  hasta los  1000 €. Este tipo de equipos contienen un buen hardware. En este rango de precio se encuentran la mayoría de portátiles del mercado.</p>
+                    
+                        <br>
+                    </div>
+                    <div>
+                        <h4>Presupuesto Elevado</h4>
+                        <br>
+                        <p></p>
+                        <br>
+                    </div>
+                </div>
 
     </main>
     <footer class="container-fluid pie post-footer">
-    <nav class="navbar navbar-expand-sm  navbar-dark">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a href="../contacto.php" class="nav-link">
+        <nav class="navbar navbar-expand-sm  navbar-dark">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="../contacto.php" class="nav-link">
 
-                    Contacto</a>
-            </li>
-            <li class="nav-item">
-                <a href="../privacidad.php" class="nav-link">
+                        Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../privacidad.php" class="nav-link">
 
-                    Privacidad</a>
-            </li>
-        </ul>
+                        Privacidad</a>
+                </li>
+            </ul>
 
-    </nav>
+        </nav>
 
-    <h6 class="copy">&copy; Todos los derechos reservados - Dragonf-j - 2022</h6>
+        <h6 class="copy">&copy; Todos los derechos reservados - Dragonf-j - <?php $year= date("Y"); echo $year;?></h6>
 
-</footer>
+    </footer>
 </body>
 
 
