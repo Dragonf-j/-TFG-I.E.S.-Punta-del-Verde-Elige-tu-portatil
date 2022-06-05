@@ -53,7 +53,7 @@
             }
         };
     </script>
- 
+
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4818848852532039" crossorigin="anonymous"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -85,24 +85,24 @@
                     <div class="collapse navbar-collapse" id="collapsibleNavbar">
                         <ul class="navbar-nav">
 
-                        <li class="nav-item">
+                            <li class="nav-item">
                                 <a href="elegir.php" class="nav-link">
-                                    
+
                                     Portátiles</a>
                             </li>
                             <li class="nav-item">
                                 <a href="elegir_raton.php" class="nav-link">
-                                   
+
                                     Ratones</a>
                             </li>
                             <li class="nav-item">
                                 <a href="elegir_teclado.php" class="nav-link">
-                                    
+
                                     Teclados</a>
                             </li>
                             <li class="nav-item">
                                 <a href="elegir_cascos.php" class="nav-link">
-                                   
+
                                     Cascos</a>
                             </li>
 
@@ -118,150 +118,197 @@
 
     </header>
     <main>
-    <div>
-    <h1 class="titulo">Ratones</h1>
-        <div class="container bg-grey d-flex flex-column justify-content-around ">
-            <form action="" method="POST" class="grid">
-                <div class="form-check" id="cable">
-                    <label for="cable">
+        <div class="contenedor">
+            <h1 class="titulo">Ratones</h1>
+            <div class="container bg-grey d-flex flex-column justify-content-around ">
+                <form action="" method="POST" class="grid">
+                    <div class="form-check" id="cable">
+                        <label for="cable">
+                            <h4>Cable</h4>
+                        </label><br>
+
+                        </label><br>
+                        <label for="si">Si</label>
+                        <input type="radio" class="form-check-input" name="cable" value="S">
+
+                        <br>
+                        <label for="no">No</label>
+                        <input type="radio" class="form-check-input" name="cable" value="N">
+                        <br>
+                        <br>
+
+
+                    </div>
+
+                    <div class="form-check" id="bluetooth">
+                        <label for="Bluetooh">
+                            <h4>Bluetooth</h4>
+                        </label><br>
+
+                        </label><br>
+                        <label for="si">Si</label>
+                        <input type="radio" class="form-check-input" name="Bluetooh" value="S">
+
+                        <br>
+                        <label for="no">No</label>
+                        <input type="radio" class="form-check-input" name="Bluetooh" value="N">
+                        <br>
+                        <br>
+
+
+                    </div>
+
+                    <div class="form-check" id="inalambrico">
+                        <label for="inalambrico">
+                            <h4>Inalámbrico</h4>
+                        </label><br>
+
+                        </label><br>
+                        <label for="si">Si</label>
+                        <input type="radio" class="form-check-input" name="inalambrico" value="S">
+
+                        <br>
+                        <label for="no">No</label>
+                        <input type="radio" class="form-check-input" name="inalambrico" value="N">
+                        <br>
+                        <br>
+
+
+                    </div>
+
+
+
+                    <div class="form-check thumbnail" id="RGB">
+                        <label for="rgb">
+                            <h4>RGB</h4>
+
+
+                        </label><br>
+                        <label for="si">Si</label>
+                        <input type="radio" class="form-check-input" name="rgb" value="S">
+
+                        <br>
+                        <label for="no">No</label>
+                        <input type="radio" class="form-check-input" name="rgb" value="N">
+                        <br>
+                    </div>
+
+
+
+                    <div class="form-check " id="Precio">
+                        <label for="precio">
+                            <h4>Presupuesto</h4>
+
+                        </label><br>
+                        <label for="bajo">Bajo</label>
+                        <input type="radio" class="form-check-input" name="precio" value="bajo">
+                        <br>
+                        <label for="moderado">Moderado</label>
+                        <input type="radio" class="form-check-input" name="precio" value="moderado">
+                        <br>
+                        <label for="elevado">Elevado</label>
+                        <input type="radio" class="form-check-input" class="form-check-input" name="precio" value="elevado">
+                        <br>
+
+                    </div>
+
+
+
+
+
+
+
+                    <input class="boton" type="submit" value="Buscar" name="mostrar">
+
+
+                </form>
+
+                <div class="container bg-grey p-2 ms-auto principal thumbnail">
+
+                    <?php
+                    require_once('../../controlers/controler_mouse/controlador.php');
+                    require_once('../../vistas/Vistas_dinamicas/montarTabla.php');
+                    $cMouse = new controladorMouse();
+
+
+                    $datos =  $cMouse->mostrar();
+
+                    montarTabla::montar($datos);
+
+
+                    ?>
+
+                </div>
+                <div>
+                    <h3>Conexiones</h3>
+                    <br>
+                    <div>
                         <h4>Cable</h4>
-                    </label><br>
-                   
-                    </label><br>
-                    <label for="si">Si</label>
-                    <input type="radio" class="form-check-input" name="cable" value="S">
-
-                    <br>
-                    <label for="no">No</label>
-                    <input type="radio" class="form-check-input" name="cable" value="N">
-                    <br>
-                    <br>
-                   
-
-                </div>
-
-                <div class="form-check" id="bluetooth">
-                    <label for="Bluetooh">
-                        <h4>Bluetooth</h4>
-                    </label><br>
-                   
-                    </label><br>
-                    <label for="si">Si</label>
-                    <input type="radio" class="form-check-input" name="Bluetooh" value="S">
-
-                    <br>
-                    <label for="no">No</label>
-                    <input type="radio" class="form-check-input" name="Bluetooh" value="N">
-                    <br>
-                    <br>
-                   
-
-                </div>
-
-                <div class="form-check" id="inalambrico">
-                    <label for="inalambrico">
+                        <br>
+                        <p>Los ratones que tienen cable son aquellos que se conectan al equipo mediante un cable usb. Estos ratones no llevan ni baterías ni pilas.</p>
+                        <br>
                         <h4>Inalámbrico</h4>
-                    </label><br>
-                   
-                    </label><br>
-                    <label for="si">Si</label>
-                    <input type="radio" class="form-check-input" name="inalambrico" value="S">
-
+                        <br>
+                        <p>Los ratones inalámbricos o con tecnología 2.4 GHZ son aquellos que mediante un receptor usb recrean las altas tasas de envío de información que tiene un ratón con cable. Este tipo de ratón tiene la misma fiabilidad que los ratones convencionales. Suelen incorporar baterías o pilas.</p>
+                        <br>
+                        <h4>Bluetooth</h4>
+                        <br>
+                        <p> Los ratones bluetooth son aquellos que se conectan con aquellos dispositivos que tengan bluetooth. El envío de información es más lento que en otros dispositivos con otras tecnologías, esto es imperceptible. Estos ratones brillan por la ausencia de cables. <span class="info"> No confundir con ratones que tenga tecnología inalámbrica o 2,4 GHZ</span></p>
                     <br>
-                    <label for="no">No</label>
-                    <input type="radio" class="form-check-input" name="inalambrico" value="N">
-                    <br>
-                    <br>
-                   
-
+                    </div>
                 </div>
-
-
-
-                <div class="form-check thumbnail" id="RGB">
-                    <label for="rgb">
+                <div>
+                    <h3>RGB</h3>
+                    <br>
+                    <div>
                         <h4>RGB</h4>
-
-
-                    </label><br>
-                    <label for="si">Si</label>
-                    <input type="radio" class="form-check-input" name="rgb" value="S">
-
+                        <br>
+                        <p>El rgb son las siglas de red green and blue, estos son los colores primarios, a partir de la combinación de estos colores podemos crear nuevos colores. LOs ratones con estas características son aquellos que tienen en una o varias parte de su cuerpo pequeñas tiras rgb para dar iluminación.</p>
+                       <br>
+                    </div>
+                </div>
+                <div>
+                    <h3>Presupuesto</h3>
                     <br>
-                    <label for="no">No</label>
-                    <input type="radio" class="form-check-input" name="rgb" value="N">
-                    <br>
+                    <div>
+                        <h4>Bajo</h4>
+                        <br>
+                        <p>Los ratones con un presupuesto bajo son aquellos que su precio se encuentra entre los 5 € y los 25 €.    </p>
+                        <br>
+                        <h4>Moderado </h4>
+                        <br>
+                        
+                        <p>Los ratones con un presupuesto moderado son aquellos que su precio se encuentra entre los 26 € y los 70 €. Algunos tienen un software de la marca para poder controlar funcionalidades extras. </p>
+                        <br>
+                        <h4>Elelvado</h4>
+                        <br>
+                        <p>Los ratones con un presupuesto elevado son los que su precio es superior a los 70 €. La mayoría de estos ratones tiene un software propio de la marca para poder controlar funcionalidades extras. Algunas de estas funcionalidades es la asignación de botones para que ejecuten una acción diferente o control rgbTienen materiales de mejor calidad. </p>
+                        
+                    </div>
                 </div>
 
-               
+            </div>
+    </main>
 
-                <div class="form-check " id="Precio">
-                    <label for="precio">
-                        <h4>Presupuesto</h4>
+    <footer class="container-fluid pie post-footer">
+        <nav class="navbar navbar-expand-sm  navbar-dark">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="../contacto.php" class="nav-link">
 
-                    </label><br>
-                    <label for="bajo">Bajo</label>
-                    <input type="radio" class="form-check-input" name="precio" value="bajo">
-                    <br>
-                    <label for="moderado">Moderado</label>
-                    <input type="radio" class="form-check-input" name="precio" value="moderado">
-                    <br>
-                    <label for="elevado">Elevado</label>
-                    <input type="radio" class="form-check-input" class="form-check-input" name="precio" value="elevado">
-                    <br>
+                        Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../privacidad.php" class="nav-link">
 
-                </div>
-               
+                        Privacidad</a>
+                </li>
+            </ul>
 
-
-
-
-
-
-                <input class="boton" type="submit" value="Buscar" name="mostrar">
-
-
-            </form>
-
-            <div class="container bg-grey p-2 ms-auto principal thumbnail">
-            
-            <?php
-            require_once('../../controlers/controler_mouse/controlador.php');
-            require_once('../../vistas/Vistas_dinamicas/montarTabla.php');
-            $cMouse = new controladorMouse();
-
-
-            $datos =  $cMouse->mostrar();
-
-            montarTabla::montar($datos);
-
-
-            ?>
-
-        </div>
-
-
-        </div>
-        </main>
-       
-        <footer class="container-fluid pie post-footer">
-                <nav class="navbar navbar-expand-sm  navbar-dark">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a href="../contacto.php" class="nav-link">
-
-                                Contacto</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="../privacidad.php" class="nav-link">
-
-                                Privacidad</a>
-                        </li>
-                    </ul>
-
-                </nav>
-                <h6 class="copy">&copy; Todos los derechos reservados - Dragonf-j - <?php $year= date("Y"); echo $year;?></h6>
-            </footer>
+        </nav>
+        <h6 class="copy">&copy; Todos los derechos reservados - Dragonf-j - <?php $year = date("Y");
+                                                                            echo $year; ?></h6>
+    </footer>
 
 </body>
 

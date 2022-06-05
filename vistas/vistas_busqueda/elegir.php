@@ -339,7 +339,29 @@
                     <div>
                         <h4>Presupuesto Elevado</h4>
                         <br>
-                        <p></p>
+                        <p>Los portátiles con un presupuesto elevado son aquellos que su  precio está por encima de los 1000 € </p>
+                        <br>
+                    </div>
+                </div>
+                <div>
+                    <h3>Pulgadas</h3>
+                    <br>
+                    <div>
+                        <h4>Pequeño</h4>
+                        <br>
+                        <p>Los portátiles pequeños son aquellos que tienen unas pulgadas inferiores a 14. Estos portátiles son aquellos que  cuando los medimos su diagonal mide menos 35 cm aproximadamente.</p>
+                        <br>
+                    </div>
+                    <div>
+                        <h4>Medio</h4>
+                        <br>
+                        <p>Los portátiles de tamaño medio son aquellos que tienen unas pulgadas entre las 14.5 pulgadas y las 16,5. La diagonal de estos equipos como normal general suele estar entre los 36 cm y los 40 cm.</p>
+                        <br>
+                    </div>
+                    <div>
+                        <h4>Grande</h4>
+                        <br>
+                        <p>Los portátiles grandes son aquellos que tienen 17 pulgadas. La diagonal de estos equipos se encuentra sobre los 40 cm.</p>
                         <br>
                     </div>
                 </div>
