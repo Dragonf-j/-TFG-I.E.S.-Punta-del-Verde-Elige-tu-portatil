@@ -118,7 +118,7 @@
 
     </header>
 <main>
-    <div>
+    <div class="contenedor"> 
         <h1 class="titulo">Teclados</h1>
         <div class="container bg-grey d-flex flex-column justify-content-around ">
             <form action="" method="POST" class="grid">
@@ -261,6 +261,76 @@
                 ?>
 
             </div>
+            <div>
+                <h3>Tipo</h3>
+                <br>
+                <div>
+                    <h4>Membrana</h4>
+                    <br>
+                    <p>Los teclados de membrana son aquellos que tienen tacto suave y silencioso, suelen ser teclados muy finos. Estos por dentro tienen una lámina de plástico hacen contacto con el circuito y mandan la señal. Estos teclados suelen tener un tiempo de respuesta algo elevado pero no es perceptible por el humano.</p>
+                    <br>
+                </div>
+                <div>
+                    <h4>Mecanico</h4>
+                    <br>
+                    <p>               
+Los teclados mecánicos son aquellos que se caracterizan por tener el típico ruido de click al pulsar una tecla Estos teclados tienen un tiempo de respuesta menor, ideal para juegos competitivos. Estos teclados suelen ser algo más gruesos.
+</p>
+                    <br>
+                </div>
+            </div>
+            <div>
+                    <h3>Conexiones</h3>
+                    <br>
+                    <div>
+                        <h4>Cable</h4>
+                        <br>
+                        <p>  Los teclados que tienen cable son aquellos que se conectan al equipo mediante un cable usb. Estos teclados no llevan ni baterías ni pilas.</p>
+                        <br>
+                        <h4>Inalámbrico</h4>
+                        <br>
+                        <p>Los teclados inalámbricos o con tecnología 2.4 GHZ son aquellos que mediante un receptor usb recrean las altas tasas de envío de información que tiene un teclados con cable. Este tipo de teclados tiene la misma fiabilidad que los teclados convencionales. Funcionan mediante baterías o pilas.</p>
+                        <br>
+                        <h4>Bluetooth</h4>
+                        <br>
+                        <p> Los teclados bluetooth son aquellos que se conectan con aquellos dispositivos que tengan bluetooth. El envío de información es más lento que en otros dispositivos con otras tecnologías, esto es imperceptible. Estos teclados brillan por la ausencia de cables. <span class="info"> No confundir con teclados que tenga tecnología inalámbrica o 2,4 GHZ</span></p>
+                    <br>
+                    </div>
+                </div>
+                <div>
+                    <h3>RGB</h3>
+                    <br>
+                    
+                    <div>
+                        <h4>RGB</h4>
+                        <br>
+                        <p>El rgb son las siglas de red green and blue, estos son los colores primarios, a partir de la combinación de estos colores podemos crear nuevos colores. Los cascos con estas características son aquellos que tienen en una o varias parte de su cuerpo pequeñas tiras rgb para dar iluminación.</p>
+                       <br>
+                    </div>
+                </div>
+                <div>
+                    <h3>Formato</h3>
+                    <br>
+                    <div>
+                        <h4>100%</h4>
+                        <br>
+                        <p>Los teclados completos son aquellos que su tamaño es del 100%, es decir aquellos que vienen con teclado numérico. Suelen tener entre 102 y 105 teclas.</p>
+                        <br>
+                        <h4>75% o TKL</h4>
+                        <br>
+                        <p>Los teclados TKL o 75%  son aquellos que su tamaño es del 75% respecto a un teclado de tamaño completo. Son aquellos que tienen las flechas de dirección, botones como imprimir y suprimir. Estos teclados no tienen los números a la derecha.                       
+                        <br>
+                    </p>
+                        <h4>60%</h4>
+                        <br>
+                        <p>
+                        Los teclados 60%  son aquellos que su tamaño es del 60% respecto a un teclado de tamaño completo. Estos se caracterizan por ser muy compactos y portables. Estos tienen las teclas de funciones especiales integrados en otras teclas y se usando usando la tecla espacial FN 
+                        </p>
+                        <br>
+                    </div>
+                </div>
+
+
 
           
 

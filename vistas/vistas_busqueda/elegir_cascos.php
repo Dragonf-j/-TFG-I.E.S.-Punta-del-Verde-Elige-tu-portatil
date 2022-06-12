@@ -118,7 +118,7 @@
 
     </header>
 <main>
-    <div>
+    <div class="contenedor">
         <h1 class="titulo">Cascos</h1>
         <div class="container bg-grey d-flex flex-column justify-content-around ">
             <form action="" method="POST" class="grid">
@@ -234,7 +234,7 @@
 
 
             </form>
-
+        </div>
 
             <div class="container bg-grey p-2 ms-auto principal thumbnail">
 
@@ -249,8 +249,57 @@
                 ?>
 
             </div>
+            <div>
+                    <h3>Conexiones</h3>
+                    <br>
+                    <div>
+                        <h4>Cable</h4>
+                        <br>
+                        <p>  Los cascos que tienen cable son aquellos que se conectan al equipo mediante un cable jack o usb. Estos cascos no llevan ni baterías ni pilas.</p>
+                        <br>
+                        <h4>Inalámbrico</h4>
+                        <br>
+                        <p>Los cascos inalámbricos o con tecnología 2.4 GHZ son aquellos que mediante un receptor usb recrean las altas tasas de envío de información que tiene un cascos con cable. Este tipo de cascos tiene la misma fiabilidad que los cascos convencionales. Funcionan mediante baterías o pilas.</p>
+                        <br>
+                        <h4>Bluetooth</h4>
+                        <br>
+                        <p> Los cascos bluetooth son aquellos que se conectan con aquellos dispositivos que tengan bluetooth. El envío de información es más lento que en otros dispositivos con otras tecnologías, esto es imperceptible. Estos cascos brillan por la ausencia de cables. <span class="info"> No confundir con cascos que tenga tecnología inalámbrica o 2,4 GHZ</span></p>
+                    <br>
+                    </div>
+                </div>
+                <div>
+                    <h3>RGB</h3>
+                    <br>
+                    <div>
+                        <h4>RGB</h4>
+                        <br>
+                        <p>El rgb son las siglas de red green and blue, estos son los colores primarios, a partir de la combinación de estos colores podemos crear nuevos colores. Los cascos con estas características son aquellos que tienen en una o varias parte de su cuerpo pequeñas tiras rgb para dar iluminación.</p>
+                       <br>
+                    </div>
+                </div>
+                <div>
+                    <h3>Presupuesto</h3>
+                    <br>
+                    <div>
+                        <h4>Bajo</h4>
+                        <br>
+                        <p>Los cascos con un presupuesto bajo son aquellos que su precio se encuentra entre los 5 € y los 25 €.    </p>
+                        <br>
+                        <h4>Moderado </h4>
+                        <br>
+                        
+                        <p>Los cascos con un presupuesto moderado son aquellos que su precio se encuentra entre los 26 € y los 70 €. Algunos tienen un software de la marca para poder controlar funcionalidades extras. </p>
+                        <br>
+                        <h4>Elelvado</h4>
+                        <br>
+                        <p>Los cascos con un presupuesto elevado son los que su precio es superior a los 70 €. La mayoría de estos cascps tiene un software propio de la marca para poder controlar funcionalidades extras. Algunas de estas funcionalidades es la asignación de botones para que ejecuten una acción diferente o control rgb. Tienen materiales de mejor calidad. </p>
+                        
+                    </div>
+                </div>
 
         </div>
+        </div>
+    </div>
         </main>
 
         <footer class="container-fluid pie post-footer">

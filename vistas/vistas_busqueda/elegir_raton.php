@@ -282,12 +282,13 @@
                         <br>
                         <h4>Elelvado</h4>
                         <br>
-                        <p>Los ratones con un presupuesto elevado son los que su precio es superior a los 70 €. La mayoría de estos ratones tiene un software propio de la marca para poder controlar funcionalidades extras. Algunas de estas funcionalidades es la asignación de botones para que ejecuten una acción diferente o control rgbTienen materiales de mejor calidad. </p>
+                        <p>Los ratones con un presupuesto elevado son los que su precio es superior a los 70 €. La mayoría de estos ratones tiene un software propio de la marca para poder controlar funcionalidades extras. Algunas de estas funcionalidades es la asignación de botones para que ejecuten una acción diferente o control rgb. Tienen materiales de mejor calidad. </p>
                         
                     </div>
                 </div>
 
             </div>
+        </div>
     </main>
 
     <footer class="container-fluid pie post-footer">
