@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="../estilos/estilos_main.css">
     <link rel="stylesheet" href="../estilos/estilos_elegir.css">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CNRJ888MW6"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4818848852532039"
+     crossorigin="anonymous"></script>
     <script type="text/javascript">
         var _iub = _iub || [];
         _iub.csConfiguration = {
