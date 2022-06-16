@@ -46,7 +46,7 @@ class cascocrud{
             echo "<br>";
             
             // echo "aqui llega";
-            return $this->ratones;
+            return $this->cascos;
         }catch(PDOException $e){
             echo $e->getMessage();
         }

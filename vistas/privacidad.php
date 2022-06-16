@@ -118,24 +118,8 @@
     <main>
     <div class="container bg-grey d-flex contenedor flex-column justify-content-around ">
         <h2>Privacidad</h2>
-        <a href="https://www.iubenda.com/privacy-policy/18091383" class="iubenda-white no-brand iubenda-noiframe iubenda-embed iubenda-noiframe " title="Política de Privacidad ">Política de Privacidad</a>
-        <script type="text/javascript">
-            (function(w, d) {
-                var loader = function() {
-                    var s = d.createElement("script"),
-                        tag = d.getElementsByTagName("script")[0];
-                    s.src = "https://cdn.iubenda.com/iubenda.js";
-                    tag.parentNode.insertBefore(s, tag);
-                };
-                if (w.addEventListener) {
-                    w.addEventListener("load", loader, false);
-                } else if (w.attachEvent) {
-                    w.attachEvent("onload", loader);
-                } else {
-                    w.onload = loader;
-                }
-            })(window, document);
-        </script>
+       
+        
     </div>
         </main>
     <footer class="container-fluid pie post-footer">
