@@ -133,9 +133,7 @@
                         <label for="basico" data-bs-toggle="tooltip" data-bs-placement="top" title="Prueba 2">Básico</label>
                         <input type="radio" class="form-check-input" class="tipo" name="tipo" value="basico">
                         <br>
-                        <label for="workstation">Workstation</label>
-                        <input type="radio" class="form-check-input" class="tipo" name="tipo" value="workstation">
-                        <br>
+                      
                         <label for="Convertible">2 en 1</label>
                         <input type="radio" class="form-check-input" class="tipo" name="tipo" value="Convertible">
 
@@ -238,7 +236,12 @@
 
 
                 </div>
-
+        <div class="Informativo">
+            <h3 id="adv">Advertetncia</h3>
+            <p>                    
+Puede que algunos portátiles tengan algunas características diferentes a las indicadas del formulario, como por ejemplo RAM de 4GB o menos espacio de almacenamiento. Esto es debido a que existen pocos portátiles con esas características y pocos usuarios que quieran estas caracteristicas
+</p>
+        </div>
                 <div>
                 <h3 class="title">Tipos</h3>
                 <br>

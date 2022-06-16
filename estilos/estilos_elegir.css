@@ -198,3 +198,7 @@ main{
 
   min-height: auto;
 }
+#adv{
+  color: yellow;
+  text-align: center;
+}
