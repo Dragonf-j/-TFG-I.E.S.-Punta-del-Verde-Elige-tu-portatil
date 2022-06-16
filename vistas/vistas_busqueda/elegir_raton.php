@@ -141,17 +141,17 @@
                     </div>
 
                     <div class="form-check" id="bluetooth">
-                        <label for="Bluetooh">
+                        <label for="bluetooht">
                             <h4>Bluetooth</h4>
                         </label><br>
 
                         </label><br>
                         <label for="si">Si</label>
-                        <input type="radio" class="form-check-input" name="Bluetooh" value="S">
+                        <input type="radio" class="form-check-input" name="bluetooht" value="S">
 
                         <br>
                         <label for="no">No</label>
-                        <input type="radio" class="form-check-input" name="Bluetooh" value="N">
+                        <input type="radio" class="form-check-input" name="bluetooht" value="N">
                         <br>
                         <br>
 

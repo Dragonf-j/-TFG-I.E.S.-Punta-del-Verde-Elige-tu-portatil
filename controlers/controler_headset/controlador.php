@@ -53,7 +53,7 @@ class controladorHeadset{
         
       
         $datos = $this->headset->getcascos($precio, $Bluetooh, $inalambrico, $cable, $diadema, $micro);
-         
+       
      return $datos;
     
         // montarTabla::montar($datos);

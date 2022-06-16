@@ -36,7 +36,7 @@ class ratoncrud{
     public function getRaton( $presupuesto, $bluetooht, $inalambrico, $cable, $rgb){
 
         try{
-            $sentencia = "SELECT * FROM ratones WHERE (presupuesto  ='$presupuesto') and (bluetooth = '$bluetooht') and (inalambrico= '$inalambrico')and  (cable = '$cable')and (rgb='$rgb')";
+            $sentencia = "SELECT * FROM ratones WHERE (presupuesto  ='$presupuesto') and (bluetooht = '$bluetooht') and (inalambrico= '$inalambrico')and  (cable = '$cable')and (rgb='$rgb')";
             $this->consulta = $this->conexion->prepare($sentencia);
             //  echo 'Consulta realizada';
             // echo '<br>';
