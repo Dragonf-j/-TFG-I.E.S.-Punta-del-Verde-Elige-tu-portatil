@@ -147,11 +147,11 @@
                    
                     </label><br>
                     <label for="si">Si</label>
-                    <input type="radio" class="form-check-input" name="Bluetooh" value="S">
+                    <input type="radio" class="form-check-input" name="bluetooh" value="S">
 
                     <br>
                     <label for="no">No</label>
-                    <input type="radio" class="form-check-input" name="Bluetooh" value="N">
+                    <input type="radio" class="form-check-input" name="bluetooh" value="N">
                     <br>
                     <br>
                    
@@ -216,11 +216,11 @@
                    
                     </label><br>
                     <label for="si">Si</label>
-                    <input type="radio" class="form-check-input" name="micro" value="S">
+                    <input type="radio" class="form-check-input" name="microfono" value="S">
 
                     <br>
                     <label for="no">No</label>
-                    <input type="radio" class="form-check-input" name="micro" value="N">
+                    <input type="radio" class="form-check-input" name="microfono" value="N">
                     <br>
                     <br>
                    

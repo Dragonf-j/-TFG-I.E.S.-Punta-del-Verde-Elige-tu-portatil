@@ -19,8 +19,8 @@ class controladorMouse{
         }else{
            return;
         }
-        if(isset($_POST['Bluetooh'])){
-           $Bluetooh = $_POST['Bluetooh'];
+        if(isset($_POST['bluetooht'])){
+           $bluetooht = $_POST['bluetooht'];
         
           
         }
@@ -46,7 +46,7 @@ class controladorMouse{
        
         
       
-        $datos = $this->mouse->getRaton($precio, $Bluetooh, $inalambrico, $cable, $rgb);
+        $datos = $this->mouse->getRaton($precio, $bluetooht, $inalambrico, $cable, $rgb);
        
      return $datos;
     

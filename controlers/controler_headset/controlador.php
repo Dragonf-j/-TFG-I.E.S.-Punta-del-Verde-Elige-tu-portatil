@@ -19,8 +19,8 @@ class controladorHeadset{
         }else{
            return;
         }
-        if(isset($_POST['Bluetooh'])){
-           $Bluetooh = $_POST['Bluetooh'];
+        if(isset($_POST['bluetooh'])){
+           $bluetooh = $_POST['bluetooh'];
         
           
         }
@@ -42,8 +42,8 @@ class controladorHeadset{
         }else{
            return;
         }
-        if(isset($_POST['micro'])){
-            $micro = $_POST['micro'];
+        if(isset($_POST['microfono'])){
+            $microfono = $_POST['microfono'];
         
          }else{
             return;
@@ -52,8 +52,8 @@ class controladorHeadset{
        
         
       
-        $datos = $this->headset->getcascos($precio, $Bluetooh, $inalambrico, $cable, $diadema, $micro);
-       
+        $datos = $this->headset->getcascos($precio, $bluetooh, $inalambrico, $cable, $diadema, $microfono);
+       echo $datos;
      return $datos;
     
         // montarTabla::montar($datos);

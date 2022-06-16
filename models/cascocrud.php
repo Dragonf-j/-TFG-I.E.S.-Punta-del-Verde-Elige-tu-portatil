@@ -33,10 +33,10 @@ class cascocrud{
         }
     }
 
-    public function getcascos( $presupuesto, $Bluetooh, $inalambrico, $cable, $diadema, $microfono){
+    public function getcascos( $presupuesto, $bluetooh, $inalambrico, $cable, $diadema, $microfono){
 
         try{
-            $sentencia = "SELECT * FROM cascos WHERE (presupuesto  ='$presupuesto') and (Bluetooh = '$Bluetooh') and (inalambrico= '$inalambrico')and (cable = '$cable')and (diadema='$diadema') and (microfono = '$microfono')";
+            $sentencia = "SELECT * FROM cascos WHERE (presupuesto  ='$presupuesto') and (bluetooh = '$bluetooh') and (inalambrico= '$inalambrico')and (cable = '$cable')and (diadema='$diadema') and (microfono = '$microfono')";
             $this->consulta = $this->conexion->prepare($sentencia);
             // echo $sentencia;
             //  echo 'Consulta realizada';
