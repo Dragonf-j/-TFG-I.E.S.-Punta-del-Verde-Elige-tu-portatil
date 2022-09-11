@@ -73,7 +73,14 @@ require_once('../../vistas/Vistas_dinamicas/montarTabla.php');
       
 
 
-
+        public function MostrarAll(){
+         if(isset($_POST['precio'])){
+            $precio = $_POST['precio'];
+          
+         }
+         $datos = $this->laptop->getAll($precio);
+         return $datos;
+      }
 
      
      

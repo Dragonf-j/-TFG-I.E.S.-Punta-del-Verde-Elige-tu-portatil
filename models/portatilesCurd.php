@@ -68,7 +68,23 @@ class PortatilCrud
         }
     }
 
-  
+    public function getAll( $precio)
+    {
+        try {
+            $sentencia = "SELECT * FROM portatil WHERE (presupuesto= '$precio') ";
+            $this->consulta = $this->conexion->prepare($sentencia);
+            //  echo 'Consulta realizada';
+            // echo '<br>';
+            $this->consulta->execute();
+            $this->portatiles = $this->consulta->fetchAll(PDO::FETCH_ASSOC);
+            echo "<br>";
+            
+            // echo "aqui llega";
+            return $this->portatiles;
+        } catch (PDOException $e) {
+            echo $e->getMessage();
+        }
+    }
 
    
 }
