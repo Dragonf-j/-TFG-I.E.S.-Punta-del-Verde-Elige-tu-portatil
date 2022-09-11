@@ -219,9 +219,7 @@
 
 
                 </form>
-<a href="vistas_all/vistas_all_portatiles.php">Ir a vistas all
-    
-</a>
+
 
                 <div class="container bg-grey p-2 ms-auto principal thumbnail">
 
