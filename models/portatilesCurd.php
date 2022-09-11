@@ -33,6 +33,7 @@ class PortatilCrud
             $this->nameDB = 'dbs5463814';
             $this->users = 'dbu2090805';
             $this->password = 'eligetuportatil1A*';
+       
             //variable en que vamos a guardar los datos de las variables del host y del nameDb
             $dsn = 'mysql:host=' . $this->host . ';dbname=' . $this->nameDB;
 
@@ -67,6 +68,26 @@ class PortatilCrud
             echo $e->getMessage();
         }
     }
+
+
+    public function getAll( $precio)
+    {
+        try {
+            $sentencia = "SELECT * FROM portatil WHERE (presupuesto= '$precio') ";
+            $this->consulta = $this->conexion->prepare($sentencia);
+            //  echo 'Consulta realizada';
+            // echo '<br>';
+            $this->consulta->execute();
+            $this->portatiles = $this->consulta->fetchAll(PDO::FETCH_ASSOC);
+            echo "<br>";
+            
+            // echo "aqui llega";
+            return $this->portatiles;
+        } catch (PDOException $e) {
+            echo $e->getMessage();
+        }
+    }
+    
 
   
 

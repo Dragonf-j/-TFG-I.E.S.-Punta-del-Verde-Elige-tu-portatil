@@ -2,6 +2,7 @@
    
 // require_once('../vistas/Vistas_dinamicas/montarTabla.php');
 require_once('../../vistas/Vistas_dinamicas/montarTabla.php');
+
 // require_once($_SERVER['DOCUMENT_ROOT'].'/Dragonf/proyecto/vistas/Vistas_dinamicas/montarTabla.php');
 /**
  * clase que controla el funcionamiento entre la web y la base de datos
@@ -69,6 +70,15 @@ require_once('../../vistas/Vistas_dinamicas/montarTabla.php');
         
             // montarTabla::montar($datos);
         }
+
+   public function MostrarAll(){
+      if(isset($_POST['precio'])){
+         $precio = $_POST['precio'];
+       
+      }
+      $datos = $this->laptop->getAll($precio);
+      return $datos;
+   }
 
       
 
