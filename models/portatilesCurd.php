@@ -68,7 +68,7 @@ class PortatilCrud
         }
     }
 
-    public function getAll( $precio)
+    public function getAll($precio)
     {
         try {
             $sentencia = "SELECT * FROM portatil WHERE (presupuesto= '$precio') ";
