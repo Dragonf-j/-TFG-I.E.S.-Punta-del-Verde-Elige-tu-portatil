@@ -1,14 +1,14 @@
 <?php
    
 // require_once('../vistas/Vistas_dinamicas/montarTabla.php');
-// require_once('../../vistas/Vistas_dinamicas/montarTabla.php');
+require_once('../../../vistas/Vistas_dinamicas/montarTabla.php');
 // require_once($_SERVER['DOCUMENT_ROOT'].'/Dragonf/proyecto/vistas/Vistas_dinamicas/montarTabla.php');
 /**
  * clase que controla el funcionamiento entre la web y la base de datos
  */
     class ControladorPortatil{
       private $laptop;
-      
+      private $precio;
 /**
  * Constructor de la clase que inicializa la clase PortailCRUD
  */
@@ -72,17 +72,21 @@
  
 
         public function MostrarAll(){
-         if(isset($_POST['precio'])){
-            $precio = $_POST['precio'];
-            echo$precio;
-          
-         }
-         $datos = $this->laptop->getAll($precio);
+        if(isset($_POST['enviar'])){
+            if($_POST['opciones'] == null){
+               $this->precio ="bajo";
+            }else{
+            $this->precio = $_POST['opciones'];
+            }
+        }else{
+            $this->precio= "bajo";
+        }
+         $datos = $this->laptop->getAll($this->precio);
          return $datos;
       }
 
      
      
-  }
+   }
   
      

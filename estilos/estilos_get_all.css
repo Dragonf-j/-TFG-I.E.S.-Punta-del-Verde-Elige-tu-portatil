@@ -1,0 +1,9 @@
+.buttonEnviar {
+    width: 20%;
+        align-items: center;
+        border-top: 1px solid grey;
+        background-color: black;
+        color: white;
+        grid-column: 1 / span 3;
+        grid-row: 4;
+    }
