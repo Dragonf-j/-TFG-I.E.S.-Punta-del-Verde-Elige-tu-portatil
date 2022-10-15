@@ -98,13 +98,11 @@ nav{
 }
 
 .botonera{
-    border: 1px solid red;
     width: 100%;
     display: flex;
     height: auto;
-
-    
-  
+    display: flex;
+    flex-direction: row;
 }
 .Go{
     border: 3px solid whitesmoke;
@@ -112,13 +110,34 @@ nav{
     margin: 1em;
     width: 15em;
     height: auto;
+    flex: 50%;
 }
 #allLaptop{
     background-image: url("../img/mejores_laptops_para_estudiar.jpg");
-    opacity: 35%;
+    
+    flex: 50;
 }
 
 #GoFormLaptop{
     background-image: url("../img/formulario_portatiles.PNG");
-    opacity: 35%;
+    
+    flex: 50%;
+}
+
+@media (max-width: 600px){
+    .botonera {
+        flex-direction: column;
+      }
+      #containerP{
+        height: auto;
+        min-height: 15em;
+        align-items: center;
+      }
+}
+#containerP{
+    height: auto;
+    align-items: center;
+    max-height: 50em;
+    height: 60em;
+    
 }
