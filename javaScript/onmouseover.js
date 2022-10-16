@@ -1,16 +1,27 @@
 
-function eventOver(){
+function eventOverALL(){
     let botonAll = document.getElementById("allLaptop");
-    botonAll.style.borderColor = "red";
-
-    botonAll.style.height = "68em";
-    console.log("El raton esta sobre: "+ botonAll);
+    
+    botonAll.style.transform ="scale(1.1, 1.1)";
+    botonAll.style.transition ="all 1.4s";
+   
 }
 
-function eventOut(){
+function eventOutALL(){
     let botonAll2 = document.getElementById("allLaptop");
-    botonAll2.style.borderColor = "whitesmoke";
-    botonAll2.style.height = "96%";
-    console.log("El raton ya no esta sobre: "+ botonAll2);
-    
+  
+    botonAll2.style.transform ="scale(1, 1)";
+}
+
+function eventOverForm(){
+    let botonFormulario = document.getElementById("GoFormLaptop");
+ 
+    botonFormulario.style.transform ="scale(1.1, 1.1)";
+    botonFormulario.style.transition = "all 1.4s";
+}
+
+function eventOutForm(){
+    let botonFormulario2 = document.getElementById("GoFormLaptop");
+   
+    botonFormulario2.style.transform = "scale(1, 1)";
 }

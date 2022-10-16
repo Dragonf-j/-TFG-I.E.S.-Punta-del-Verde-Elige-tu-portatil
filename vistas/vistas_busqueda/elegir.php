@@ -66,7 +66,9 @@
 
         gtag('config', 'G-CNRJ888MW6');
     </script>
+    
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4818848852532039" crossorigin="anonymous"></script>
+    
 </head>
 
 
@@ -125,10 +127,10 @@
             <div class="container bg-grey d-flex flex-column justify-content-around ">
                 <form action="" method="POST" class="grid">
                     <div class="form-check" id="tipo">
-                        <label for="Tipo">
+                        <label for="Tipo" id="Tipo2">
                             <h4>Tipos</h4>
                         </label><br>
-                        <label for="gaming" data-bs-toggle="tooltip" data-bs-placement="right" title="Tooltip on right">Gaming
+                        <label for="gaming" data-bs-toggle="tooltip" data-bs-placement="right" >Gaming
                         </label>
                         <input type="radio" class="form-check-input" class="tipo" name="tipo" value="gaming">
                         <br>
