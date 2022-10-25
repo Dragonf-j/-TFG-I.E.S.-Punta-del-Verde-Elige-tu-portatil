@@ -103,6 +103,7 @@ nav{
     height: auto;
     display: flex;
     flex-direction: row;
+ 
 }
 .Go{
     border: 3px solid whitesmoke;
@@ -111,16 +112,17 @@ nav{
     width: 15em;
     height: auto;
     flex: 50%;
+    
 }
 #allLaptop{
     background-image: url("../img/mejores_laptops_para_estudiar.jpg");
-    
-    flex: 50;
+    text-align: center;
+    flex: 50%;
 }
 
 #GoFormLaptop{
     background-image: url("../img/formulario_portatiles.PNG");
-    
+    text-align: center;
     flex: 50%;
 }
 
@@ -140,4 +142,54 @@ nav{
     max-height: 50em;
     height: 60em;
     
+}
+.colour{
+    font-size: x-large;
+    color: black;
+
+}
+.constuyendo{
+    color: rgb(223, 223, 223);
+    font-size: 50px;
+}
+.cafe{
+    width: auto;
+    height: auto;
+}
+
+#allheadset{
+    background-image: url("../img/Auriculares-blutooth-baratos.jpg");
+    text-align: center;
+    flex: 50%;
+}
+
+#GoFormheadset{ 
+    background-image: url("../img/formulario_cascos.PNG");
+    text-align: center;
+    flex: 50%;
+}
+
+
+#allkeyboard{
+    background-image: url("../img/mis-teclados-60-por-ciento-03.jpg");
+    text-align: center;
+    flex: 50%;
+}
+
+#GoFormkeyboard{
+    background-image: url("../img/formulario_teclados.PNG");
+    text-align: center;
+    flex: 50%;
+}
+
+#allmouse{
+    background-image: url("../img/images.jpg");
+    text-align: center;
+    flex: 50%;
+}
+
+#GoFormmouse{
+    background-image: url("../img/formulario_ratones.PNG");
+    text-align: center;
+    flex: 50%;
 }

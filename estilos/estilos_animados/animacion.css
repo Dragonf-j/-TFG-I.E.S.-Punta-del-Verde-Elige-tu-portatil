@@ -1,0 +1,95 @@
+#allLaptop:hover{
+    transform: scale(1.1, 1.1);
+    transition: all 1.4s;
+   
+    
+}
+
+#allLaptop{
+    transform: scale(1, 1);
+    transition: all 1.4s;
+    
+}
+
+#GoFormLaptop:hover{
+    transform: scale(1.1, 1.1);
+    transition: all 1.4s;
+}
+
+#GoFormLaptop{
+    transform: scale(1, 1);
+    transition: all 1.4s;
+}
+
+
+#allheadset:hover{
+    transform: scale(1.1, 1.1);
+    transition: all 1.4s;
+   
+    
+}
+
+#allheadset{
+    transform: scale(1, 1);
+    transition: all 1.4s;
+    
+}
+
+#GoFormheadset:hover{
+    transform: scale(1.1, 1.1);
+    transition: all 1.4s;
+}
+
+#GoFormheadset{
+    transform: scale(1, 1);
+    transition: all 1.4s;
+}
+
+
+#allmouse:hover{
+    transform: scale(1.1, 1.1);
+    transition: all 1.4s;
+   
+    
+}
+
+#allmouse{
+    transform: scale(1, 1);
+    transition: all 1.4s;
+    
+}
+
+#GoFormmouse:hover{
+    transform: scale(1.1, 1.1);
+    transition: all 1.4s;
+}
+
+#GoFormmouse{
+    transform: scale(1, 1);
+    transition: all 1.4s;
+}
+
+
+#allkeyboard:hover{
+    transform: scale(1.1, 1.1);
+    transition: all 1.4s;
+   
+    
+}
+
+#allkeyboard{
+    transform: scale(1, 1);
+    transition: all 1.4s;
+    
+}
+
+#GoFormkeyboard:hover{
+    transform: scale(1.1, 1.1);
+    transition: all 1.4s;
+}
+
+#GoFormkeyboard{
+    transform: scale(1, 1);
+    transition: all 1.4s;
+}
+
