@@ -85,23 +85,23 @@
                     <div class="collapse navbar-collapse" id="collapsibleNavbar">
                         <ul class="navbar-nav">
 
-                            <li class="nav-item">
-                                <a href="../elegir.php" class="nav-link">
+                        <li class="nav-item">
+                                <a href="../../vistas_seleccionar/seleccionar_portatil.html" class="nav-link">
 
                                     Portátiles</a>
                             </li>
                             <li class="nav-item">
-                                <a href="../elegir_raton.php" class="nav-link">
+                                <a href="../../vistas_seleccionar/seleccionar_ratones.html" class="nav-link">
 
                                     Ratones</a>
                             </li>
                             <li class="nav-item">
-                                <a href="../elegir_teclado.php" class="nav-link">
+                                <a href="../../vistas_seleccionar/seleccionar_teclados.html" class="nav-link">
 
                                     Teclados</a>
                             </li>
                             <li class="nav-item">
-                                <a href="../elegir_cascos.php" class="nav-link">
+                                <a href="../../vistas_seleccionar/seleccionar_cascos.html" class="nav-link">
 
                                     Cascos</a>
                             </li>
