@@ -29,10 +29,15 @@ class PortatilCrud
             /**
              * Datos de conexion
              */
-            $this->host = 'db5006586997.hosting-data.io';
-            $this->nameDB = 'dbs5463814';
-            $this->users = 'dbu2090805';
-            $this->password = 'eligetuportatil1A*';
+            // $this->host = 'db5006586997.hosting-data.io';
+            // $this->nameDB = 'dbs5463814';
+            // $this->users = 'dbu2090805';
+            // $this->password = 'eligetuportatil1A*';
+
+            $this->host = 'locahost';
+            $this->nameDB = 'portatil';
+            $this->users = 'root';
+            $this->password = '';
 
             
             //variable en que vamos a guardar los datos de las variables del host y del nameDb
@@ -56,7 +61,9 @@ class PortatilCrud
     {
         try {
             $sentencia = "SELECT * FROM portatil WHERE (tipo= '$tipo') AND (ram = $ram) AND (presupuesto= '$precio') AND (pulgadas= '$pulgadas') AND (	almacenamiento='$almacenamiento')";
+        
             $this->consulta = $this->conexion->prepare($sentencia);
+            
             //  echo 'Consulta realizada';
             // echo '<br>';
             $this->consulta->execute();
@@ -73,7 +80,15 @@ class PortatilCrud
     public function getAll($precio)
     {
         try {
-            $sentencia = "SELECT * FROM portatil WHERE (presupuesto ='$precio')";
+            $order = null;
+            if($precio == 'elevado'){
+                $order = 'DESC';
+
+            }else{
+                $order = 'ASC';
+            }
+            
+            $sentencia = "SELECT * FROM portatil ORDER BY order_price '$order'";
             $this->consulta = $this->conexion->prepare($sentencia);
             //  echo 'Consulta realizada';
             // echo '<br>';

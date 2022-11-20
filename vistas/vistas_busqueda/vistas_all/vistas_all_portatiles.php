@@ -118,32 +118,33 @@
 
     </header>
 <main >
-   <!-- <form method="POST">
+   <form method="POST">
             <select name="opciones" id="op">
                 <option value="bajo">Precio mas bajo a mas caro</option>
-                <option value="alto">Precio mas caro a mas bajo</option>
+                <option value="elevado">Precio mas caro a mas bajo</option>
             </select>
            <input class="buttonEnviar" type="submit" value="enviar" name="enviar"> 
         </form>
 
   
-    </div> -->
+    </div>
     
     <div class="container bg-grey p-2 ms-auto principal thumbnail">
 
-    <h1 class="constuyendo "> En desarrollo</h1>
-    <img src="../../../img/jim-carrey-bruce-almighty.gif" alt="Jim Carrey bebiendo cafe" class="cafe">
-<!-- require_once('../../../controlers/controlador.php');
-require_once('../../../vistas/Vistas_dinamicas/montarTabla.php');
+    <!-- <h1 class="constuyendo "> En desarrollo</h1>
+    <img src="../../../img/jim-carrey-bruce-almighty.gif" alt="Jim Carrey bebiendo cafe" class="cafe"> -->
+    <?php
+ require_once('../../../controlers/controlador.php');
+require_once('../../Vistas_dinamicas/montarTabla.php');
 $cLaptop = new ControladorPortatil();
 
 
 $datos =  $cLaptop->MostrarAll();
+echo $datos;
+// montarTabla::montar($datos);
 
-montarTabla::montar($datos);
 
-
-?> -->
+?> 
 
 
 </div>

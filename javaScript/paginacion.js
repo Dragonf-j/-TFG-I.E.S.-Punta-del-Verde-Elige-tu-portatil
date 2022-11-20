@@ -1,6 +1,6 @@
 function obtenerDatos(){
-    var url ;
-    var metodo;
+    var url = "controlers/controlador.php";
+    var metodo = 'POST';
     var listaDatos = [];
     var contenedor;
 

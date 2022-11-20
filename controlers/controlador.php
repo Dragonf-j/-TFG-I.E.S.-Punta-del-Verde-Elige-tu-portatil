@@ -5,7 +5,9 @@
 // require_once($_SERVER['DOCUMENT_ROOT'].'/Dragonf/proyecto/vistas/Vistas_dinamicas/montarTabla.php');
 /**
  * clase que controla el funcionamiento entre la web y la base de datos
+ * 
  */
+
     class ControladorPortatil{
       private $laptop;
       private $precio;
@@ -14,15 +16,11 @@
  */
      public function __construct()
      {
-    
-        require_once('../../models/portatilesCurd.php');
+      require_once(dirname(__DIR__)."/models/portatilesCurd.php");
+       
         $this->laptop = new PortatilCrud();
         
      }
-
-  
- 
-
 
 
 
