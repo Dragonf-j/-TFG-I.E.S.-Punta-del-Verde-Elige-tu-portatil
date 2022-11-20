@@ -140,8 +140,8 @@ $cLaptop = new ControladorPortatil();
 
 
 $datos =  $cLaptop->MostrarAll();
-echo $datos;
-// montarTabla::montar($datos);
+
+montarTabla::montar($datos);
 
 
 ?> 
