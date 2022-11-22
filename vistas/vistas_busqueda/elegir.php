@@ -68,7 +68,7 @@
     </script>
     
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4818848852532039" crossorigin="anonymous"></script>
-    
+    <script src="../../javaScript/validarFormulario.js"></script>
 </head>
 
 
@@ -126,20 +126,21 @@
             <h1 class="titulo">Portátiles</h1>
             <div class="container bg-grey d-flex flex-column justify-content-around ">
                 <form action="" method="POST" class="grid">
-                    <div class="form-check" id="tipo">
+                    <div class="form-check" id="tipo" >
                         <label for="Tipo" id="Tipo2">
                             <h4>Tipos</h4>
                         </label><br>
                         <label for="gaming" data-bs-toggle="tooltip" data-bs-placement="right" >Gaming
                         </label>
-                        <input type="radio" class="form-check-input" class="tipo" name="tipo" value="gaming">
+                        <input type="radio" class="form-check-input" class="tipo" name="tipo" value="gaming" id="gamming" 
+                        onblur="validacionTipoPortatil()">
                         <br>
                         <label for="basico" data-bs-toggle="tooltip" data-bs-placement="top" title="Prueba 2">Básico</label>
-                        <input type="radio" class="form-check-input" class="tipo" name="tipo" value="basico">
+                        <input type="radio" class="form-check-input" class="tipo" name="tipo" value="basico" id="basico" onblur="validacionTipoPortatil()">
                         <br>
                       
                         <label for="Convertible">2 en 1</label>
-                        <input type="radio" class="form-check-input" class="tipo" name="tipo" value="Convertible">
+                        <input type="radio" class="form-check-input" class="tipo" name="tipo" value="Convertible" id="Convertible" onblur="validacionTipoPortatil()">
 
                     </div>
 
@@ -150,13 +151,13 @@
                             <h4>Almacenamiento</h4>
                         </label><br>
                         <label for="menos">250 GB</label>
-                        <input type="radio" class="form-check-input" name="almacenamiento" value="250GB">
+                        <input type="radio" class="form-check-input" name="almacenamiento" value="250GB" id="poco" onblur="validacionAlmacenmaiento()">
                         <br>
                         <label for="medio">500 GB</label>
-                        <input type="radio" class="form-check-input" name="almacenamiento" value="500GB">
+                        <input type="radio" class="form-check-input" name="almacenamiento" value="500GB" id="medio" onblur="validacionAlmacenmaiento()">
                         <br>
                         <label for="max">1 TB</label>
-                        <input type="radio" class="form-check-input" name="almacenamiento" value="1TB">
+                        <input type="radio" class="form-check-input" name="almacenamiento" value="1TB" id="grande" onblur="validacionAlmacenmaiento()">
                         <br>
                         <!-- <label for="max-extend">+1 TB</label>
                     <input type="radio" class="form-check-input" name="almacenamiento" value="+1TB"> -->
@@ -217,7 +218,7 @@
 
 
 
-                    <input class="boton" type="submit" value="Buscar" name="mostrar">
+                    <input class="boton" type="submit" value="Buscar" name="mostrar" onclick="pruebas()">
 
 
                 </form>

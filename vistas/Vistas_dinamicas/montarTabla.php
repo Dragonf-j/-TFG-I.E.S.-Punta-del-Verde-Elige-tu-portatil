@@ -85,4 +85,3 @@ class montarTabla
 
   
 </style>
-<script src="../../javaScript/abrir.js"></script>
