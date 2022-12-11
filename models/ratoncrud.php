@@ -52,6 +52,33 @@ class ratoncrud{
 
     }
 
+    public function getAll($precio)
+    {
+        try {
+            $order = null;
+            if($precio == 'elevado'){
+                $order = 'DESC';
+
+            }else{
+                $order = 'ASC';
+            }
+            
+            $sentencia = "SELECT * FROM ratones ORDER BY order_price $order";
+            $this->consulta = $this->conexion->prepare($sentencia);
+             echo 'Consulta realizada ratones';
+            // echo '<br>';
+            
+            $this->consulta->execute();
+            $this->ratones = $this->consulta->fetchAll(PDO::FETCH_ASSOC);
+            echo "<br>";
+           
+            // echo "aqui llega";
+            return $this->ratones;
+        } catch (PDOException $e) {
+            echo $e->getMessage();
+        }
+    }
+
 
 }
 ?>

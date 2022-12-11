@@ -1,5 +1,5 @@
 <?php
-require_once('../../vistas/Vistas_dinamicas/montarTabla.php');
+// require_once('../../vistas/Vistas_dinamicas/montarTabla.php');
 
 class controladorHeadset{
 
@@ -57,6 +57,22 @@ class controladorHeadset{
      return $datos;
     
         // montarTabla::montar($datos);
+    }
+
+
+
+    public function MostrarAll(){
+      if(isset($_POST['enviar'])){
+          if($_POST['opciones'] == null){
+             $this->precio ="bajo";
+          }else{
+          $this->precio = $_POST['opciones'];
+          }
+      }else{
+          $this->precio= "bajo";
+      }
+       $datos = $this->headset->getAll($this->precio);
+       return $datos;
     }
 }
 ?>

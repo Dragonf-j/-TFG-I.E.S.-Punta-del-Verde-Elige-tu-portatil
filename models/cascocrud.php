@@ -54,5 +54,33 @@ class cascocrud{
     }
 
 
+    public function getAll($precio)
+    {
+        try {
+            $order = null;
+            if($precio == 'elevado'){
+                $order = 'DESC';
+
+            }else{
+                $order = 'ASC';
+            }
+            
+            $sentencia = "SELECT * FROM portatil ORDER BY order_price $order";
+            $this->consulta = $this->conexion->prepare($sentencia);
+            //  echo 'Consulta realizada';
+            // echo '<br>';
+            
+            $this->consulta->execute();
+            $this->cascos = $this->consulta->fetchAll(PDO::FETCH_ASSOC);
+            echo "<br>";
+           
+            // echo "aqui llega";
+            return $this->cascos;
+        } catch (PDOException $e) {
+            echo $e->getMessage();
+        }
+    }
+
+
 }
 ?>

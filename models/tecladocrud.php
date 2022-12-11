@@ -49,6 +49,33 @@ class tecladocrud{
 
     }
 
+    public function getAll($precio)
+    {
+        try {
+            $order = null;
+            if($precio == 'elevado'){
+                $order = 'DESC';
+
+            }else{
+                $order = 'ASC';
+            }
+            
+            $sentencia = "SELECT * FROM teclados ORDER BY order_price $order";
+            $this->consulta = $this->conexion->prepare($sentencia);
+            //  echo 'Consulta realizada';
+            // echo '<br>';
+            
+            $this->consulta->execute();
+            $this->teclado = $this->consulta->fetchAll(PDO::FETCH_ASSOC);
+            echo "<br>";
+           
+            // echo "aqui llega";
+            return $this->teclado;
+        } catch (PDOException $e) {
+            echo $e->getMessage();
+        }
+    }
+
 
 }
 ?>

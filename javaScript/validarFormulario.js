@@ -17,7 +17,7 @@ var boleanTipos;
 function pruebas(){
     tipos.forEach(function(element){
         if(element == true){
-            alert(element);
+            console.log(element);
         }
     });
 }

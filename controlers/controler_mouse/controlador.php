@@ -1,5 +1,5 @@
 <?php
-require_once('../../vistas/Vistas_dinamicas/montarTabla.php');
+// require_once('../../vistas/Vistas_dinamicas/montarTabla.php');
 
 class controladorMouse{
 
@@ -53,5 +53,18 @@ class controladorMouse{
      
     }
 
+    public function MostrarAll(){
+      if(isset($_POST['enviar'])){
+          if($_POST['opciones'] == null){
+             $this->precio ="bajo";
+          }else{
+          $this->precio = $_POST['opciones'];
+          }
+      }else{
+          $this->precio= "bajo";
+      }
+       $datos = $this->mouse->getAll($this->precio);
+       return $datos;
+    }
 }
 ?>
