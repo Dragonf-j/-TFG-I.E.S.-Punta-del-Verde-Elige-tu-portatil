@@ -7,7 +7,7 @@ class controladorHeadset{
 
     public function __construct()
     {
-        require_once('../../models/cascocrud.php');
+        require_once(dirname(__DIR__).'/../models/cascocrud.php');
         $this->headset = new cascocrud();  
     }
 

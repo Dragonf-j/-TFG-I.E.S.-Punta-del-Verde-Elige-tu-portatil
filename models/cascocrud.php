@@ -65,7 +65,7 @@ class cascocrud{
                 $order = 'ASC';
             }
             
-            $sentencia = "SELECT * FROM portatil ORDER BY order_price $order";
+            $sentencia = "SELECT * FROM cascos ORDER BY order_price $order";
             $this->consulta = $this->conexion->prepare($sentencia);
             //  echo 'Consulta realizada';
             // echo '<br>';

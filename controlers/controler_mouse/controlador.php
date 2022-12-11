@@ -7,7 +7,7 @@ class controladorMouse{
 
     public function __construct()
     {
-        require_once('../../models/ratoncrud.php');
+        require_once(dirname(__DIR__).'/../models/ratoncrud.php');
         $this->mouse =  new ratoncrud(); 
     }
 

@@ -129,8 +129,16 @@
   
     </div>
     
-    <h1 class="constuyendo "> En desarrollo</h1>
-    <img src="../../../img/jim-carrey-bruce-almighty.gif" alt="Jim Carrey bebiendo cafe" class="cafe">
+    <?php
+        require_once('../../../controlers/controler_headset/controlador.php');
+        require_once('../../Vistas_dinamicas/montarTabla.php');
+
+        $cHeadset = new controladorHeadset();
+
+        $datos = $cHeadset->MostrarAll();
+
+        montarTabla::montar($datos);
+    ?>
 
 
 </div>

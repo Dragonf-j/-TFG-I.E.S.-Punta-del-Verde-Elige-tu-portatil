@@ -130,8 +130,17 @@
     </div> 
     
    
-    <h1 class="constuyendo "> En desarrollo</h1>
-    <img src="../../../img/jim-carrey-bruce-almighty.gif" alt="Jim Carrey bebiendo cafe" class="cafe">
+    <?php
+        require_once('../../../controlers/controler_mouse/controlador.php');
+        require_once('../../Vistas_dinamicas/montarTabla.php');
+
+        $cMouse = new controladorMouse();
+
+        $datos = $cMouse->MostrarAll();
+
+        montarTabla::montar($datos);
+    
+    ?>
 
 
 </div>

@@ -130,11 +130,23 @@
     </div>
     
   
-<h1 class="constuyendo "> En desarrollo</h1>
+<!-- <h1 class="constuyendo "> En desarrollo</h1>
     <img src="../../../img/jim-carrey-bruce-almighty.gif" alt="Jim Carrey bebiendo cafe" class="cafe">
 
 
-</div>
+</div> -->
+
+<?php
+    require_once('../../../controlers/controler_keyboard/controlador.php');
+    require_once('../../Vistas_dinamicas/montarTabla.php');
+
+    $ckeyboard = new controladorKeyBoard();
+
+    $datos = $ckeyboard->MostrarAll();
+
+    montarTabla::montar($datos);
+
+?>
           
         
     </div>

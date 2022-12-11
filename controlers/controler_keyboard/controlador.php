@@ -7,7 +7,8 @@ class controladorKeyBoard{
 
     public function __construct()
     {
-        require_once('../../models/tecladocrud.php');
+      //   require_once('../../models/tecladocrud.php');
+         require_once(dirname(__DIR__).'/../models/tecladocrud.php');
         $this->keyboard = new tecladocrud();  
     }
 
