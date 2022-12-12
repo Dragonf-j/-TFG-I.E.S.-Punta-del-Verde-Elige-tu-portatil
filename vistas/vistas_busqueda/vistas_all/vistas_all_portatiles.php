@@ -66,6 +66,8 @@
         gtag('config', 'G-CNRJ888MW6');
     </script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4818848852532039" crossorigin="anonymous"></script>
+    <script src="../../../javaScript/paginacion.js"></script>
+    <script src="../../../javaScript/cargaDInamica.js"></script>
 </head>
 
 
@@ -123,16 +125,17 @@
                 <option value="bajo">Precio mas bajo a mas caro</option>
                 <option value="elevado">Precio mas caro a mas bajo</option>
             </select>
-           <input class="buttonEnviar" type="submit" value="enviar" name="enviar"> 
+           <input class="buttonEnviar" type="submit" value="enviar" name="enviar" id="botonEnviar" onclick="buscar()"> 
         </form>
 
   
     </div>
     
-    <div class="container bg-grey p-2 ms-auto principal thumbnail">
+    <div class="container bg-grey p-2 ms-auto principal thumbnail contenedor_ajax" id="lista">
 
     <!-- <h1 class="constuyendo "> En desarrollo</h1>
     <img src="../../../img/jim-carrey-bruce-almighty.gif" alt="Jim Carrey bebiendo cafe" class="cafe"> -->
+    
     <?php
  require_once('../../../controlers/controlador.php');
 require_once('../../Vistas_dinamicas/montarTabla.php');

@@ -29,10 +29,15 @@ class PortatilCrud
             /**
              * Datos de conexion
              */
-            $this->host = 'db5006586997.hosting-data.io';
-            $this->nameDB = 'dbs5463814';
-            $this->users = 'dbu2090805';
-            $this->password = 'eligetuportatil1A*';
+            // $this->host = 'db5006586997.hosting-data.io';
+            // $this->nameDB = 'dbs5463814';
+            // $this->users = 'dbu2090805';
+            // $this->password = 'eligetuportatil1A*';
+
+            $this->host ='localhost';
+            $this->nameDB ='portatil';
+            $this->users = 'root';
+            $this->password ='';
 
     
 
