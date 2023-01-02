@@ -142,7 +142,9 @@ require_once('../../Vistas_dinamicas/montarTabla.php');
 $cLaptop = new ControladorPortatil();
 
 
-$datos =  $cLaptop->MostrarAll();
+$datos =  $cLaptop->mostrar();
+json_encode($datos);
+
 
 montarTabla::montar($datos);
 
